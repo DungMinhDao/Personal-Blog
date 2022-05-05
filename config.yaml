@@ -1,49 +1,58 @@
-baseurl: https://dungminhdao.github.io/
+baseurl: https://dungminhdao.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Dung M. Dao
+enableGitInfo: true
 
-module:
-    hugoVersion:
-        extended: true
-        min: "0.87.0"
+# Change it to your Disqus shortname before using
+disqusShortname: 
+
+# GA Tracking ID
+googleAnalytics:
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it
+DefaultContentLanguage: en
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
 
 params:
     mainSections:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /img/logo.jpg
 
     footer:
-        since:
+        since: 2022
         customText:
 
     dateFormat:
         published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        lastUpdated: Jan 02, 2006 15:04 GMT+7
 
     sidebar:
-        compact: false
-        emoji:
-        subtitle:
+        emoji: 🙃
+        subtitle: Hi, I'm Dung M. Dao
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: /img/avatar.jpg
 
     article:
         math: false
         toc: true
         readingTime: true
         license:
-            enabled: false
-            default: Licensed under CC BY-NC-SA 4.0
+            enabled: true
+            default: LICENSED UNDER CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: giscus
 
         disqusjs:
             shortname:
@@ -92,32 +101,33 @@ params:
             path:
             lang:
 
+        # Parameter detail can be found at https://giscus.app/        
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
+            repo: DungMinhDao/DungMinhDao.github.io
+            repoID: R_kgDOHSRJfw
+            category: General
+            categoryID: DIC_kwDOHSRJf84CO86H
             mapping:
             lightTheme:
             darkTheme:
             reactionsEnabled: 1
-            emitMetadata: 0
-            lang:
-
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
-
-        cusdis:
-            host:
-            id:
+            emitMetadata: 1
 
     widgets:
-        homepage: []
-        page: []
+        enabled:
+            - search
+            - archives
+            - tag-cloud
+            - subscribe
+
+        archives:
+            limit: 3
+
+        tagCloud:
+            limit: 20
+        
+        subscribe:
+            mailchimp: https://mailchi.mp/a54b51f2c263/thejournney
 
     opengraph:
         twitter:
@@ -145,3 +155,86 @@ params:
             enabled: true
         content:
             enabled: true
+
+    social:
+        share: 
+            facebook: true
+            linkedin: true
+            twitter: true
+            email: true
+        socialshare: true
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 1
+          params:
+              newTab: false
+              icon: home
+
+        - identifier: blog
+          name: Blog
+          url: /categories/blog/
+          weight: 2
+          params:
+              newTab: false
+              icon: blogs
+
+        - identifier: project
+          name: Project
+          url: /categories/project/
+          weight: 3
+          params:
+              newTab: false
+              icon: projects
+
+        - identifier: guidelines
+          name: Guideline
+          url: /categories/guideline/
+          weight: 4
+          params:
+              newTab: false
+              icon: guidelines
+
+        - identifier: search
+          name: Search
+          url: /search
+          weight: 5
+          params:
+              newTab: false
+              icon: search
+
+        - identifier: about
+          name: About me
+          url: /about
+          weight: 6
+          params:
+              newTab: false
+              icon: user
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:        
+        - name: series
+          weight: 1
+        - name: tags
+          weight: 2
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 5
+        ordered: true
+        startLevel: 1
+    highlight:
+        noClasses: false

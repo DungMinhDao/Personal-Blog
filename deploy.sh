@@ -29,5 +29,5 @@ read -p "Enter your commit message: " msg
 echo "\033[0;32mCommitting changes...\033[0m\n"
 git commit -m "$msg"
 git push
-printf "\033[0;32mChanges are commited and push successfully! Go to https://username.github.io to see.\033[0m\n"
+printf "\033[0;32mChanges are commited and push successfully! Go to https://dungminhdao.github.io to see.\033[0m\n"
 printf "\033[0;32mFinishing...\033[0m\n"

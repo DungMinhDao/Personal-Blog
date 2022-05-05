@@ -1,0 +1,3432 @@
+Only in themes/hugo-theme-stack/archetypes: categories.md
+Only in themes/hugo-theme-stack/archetypes: default.md
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/archetypes: page.md
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/archetypes: post.md
+diff -bur themes/hugo-theme-stack/archetypes/tags.md ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/archetypes/tags.md
+--- themes/hugo-theme-stack/archetypes/tags.md	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/archetypes/tags.md	2022-05-06 01:04:28.767212709 +0700
+@@ -1,5 +1,4 @@
+ ---
+ title: "{{ replace .Name "-" " " | title }}"
+ description: 
+-image: 
+ ---
+\ No newline at end of file
+Only in themes/hugo-theme-stack/assets/icons: archives.svg
+diff -bur themes/hugo-theme-stack/assets/icons/blogs.svg ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/blogs.svg
+--- themes/hugo-theme-stack/assets/icons/blogs.svg	2022-05-06 00:16:23.541107556 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/blogs.svg	2022-05-06 01:04:28.767212709 +0700
+@@ -1,6 +1,8 @@
+-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+-  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
++<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
++  <path stroke="none" d="M0 0h24v24H0z"/>
++  <rect x="3" y="4" width="18" height="4" rx="2" />
++  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
++  <line x1="10" y1="12" x2="14" y2="12" />
+ </svg>
+ 
+ 
+Only in themes/hugo-theme-stack/assets/icons: brand-github.svg
+Only in themes/hugo-theme-stack/assets/icons: brand-twitter.svg
+Only in themes/hugo-theme-stack/assets/icons: categories.svg
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons: email.svg
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons: facebook.svg
+diff -bur themes/hugo-theme-stack/assets/icons/guidelines.svg ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/guidelines.svg
+--- themes/hugo-theme-stack/assets/icons/guidelines.svg	2022-05-06 00:17:18.077374171 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/guidelines.svg	2022-05-06 01:04:28.767212709 +0700
+@@ -1,6 +1 @@
+-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+-  <path stroke="none" d="M0 0h24v24H0z"/>
+-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+-</svg>
+-
+-
++<svg class="svg-icon" style="width: 1.3em; height: 1.3em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M183.488 512c0-176.736 143.264-320 320-320s320 143.264 320 320-143.264 320-320 320-320-143.264-320-320zM416 864h192a32 32 0 0 1 0 64h-192a32 32 0 0 1 0-64z m64 96h64a32 32 0 0 1 0 64h-64a32 32 0 0 1 0-64z m1.76-960a32 32 0 0 1 32 32v64a32 32 0 1 1-64 0V32a32 32 0 0 1 32-32z m332.48 104.384a32 32 0 0 1 7.04 44.672L783.68 200.832a32 32 0 0 1-51.776-37.6l37.6-51.776a32 32 0 0 1 44.704-7.072z m193.216 235.616a32 32 0 0 1-20.544 40.32l-60.864 19.776a32 32 0 1 1-19.776-60.864l60.864-19.776a32 32 0 0 1 40.32 20.544z m0 316.416a32 32 0 0 1-40.32 20.544l-60.864-19.776a32 32 0 0 1 19.776-60.864l60.864 19.776a32 32 0 0 1 20.544 40.32z m-973.888 0a32 32 0 0 1 20.544-40.32l60.864-19.776a32 32 0 1 1 19.776 60.864l-60.864 19.776a32 32 0 0 1-40.32-20.544z m0-316.416a32 32 0 0 1 40.32-20.544l60.864 19.776a32 32 0 1 1-19.776 60.864l-60.864-19.776a32 32 0 0 1-20.544-40.32z m178.752-235.616a32 32 0 0 1 44.704 7.04l37.6 51.808A32 32 0 0 1 242.88 200.832L205.248 149.056a32 32 0 0 1 7.072-44.672zM247.488 512a256 256 0 1 0 512 0 256 256 0 0 0-256-256 256 256 0 0 0-256 256z"  /></svg>
+\ No newline at end of file
+Only in themes/hugo-theme-stack/assets/icons: language.svg
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons: linkedin.svg
+diff -bur themes/hugo-theme-stack/assets/icons/projects.svg ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/projects.svg
+--- themes/hugo-theme-stack/assets/icons/projects.svg	2022-05-06 00:16:50.701240336 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/projects.svg	2022-05-06 01:04:28.767212709 +0700
+@@ -1,6 +1 @@
+-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+-  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+-</svg>
+-
+-
++<svg class="svg-icon" style="width: 1.2em; height: 1.2em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M293.0688 755.2c-12.0832 0-24.2688-4.2496-33.9968-12.9024L0 512l273.4592-243.0976C294.5536 250.2144 326.912 252.0064 345.7024 273.152c18.7904 21.1456 16.896 53.504-4.2496 72.2944L154.112 512l172.9536 153.7024c21.1456 18.7904 23.04 51.1488 4.2496 72.2944C321.2288 749.4144 307.1488 755.2 293.0688 755.2zM751.0528 755.0976 1024.512 512l-259.072-230.2976c-21.1456-18.7904-53.504-16.896-72.2432 4.2496-18.7904 21.1456-16.896 53.504 4.2496 72.2944L870.4 512l-187.3408 166.5024c-21.1456 18.7904-23.04 51.1488-4.2496 72.2944C688.896 762.2144 702.976 768 717.056 768 729.1392 768 741.3248 763.7504 751.0528 755.0976zM511.5392 827.648l102.4-614.4c4.6592-27.904-14.1824-54.272-42.0864-58.9312-28.0064-4.7104-54.3232 14.1824-58.88 42.0864l-102.4 614.4c-4.6592 27.904 14.1824 54.272 42.0864 58.9312C455.5264 870.1952 458.2912 870.4 461.1072 870.4 485.6832 870.4 507.392 852.6336 511.5392 827.648z"  /></svg>
+\ No newline at end of file
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons: share.svg
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons: subscribe.svg
+diff -bur themes/hugo-theme-stack/assets/icons/toggle-left.svg ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/toggle-left.svg
+--- themes/hugo-theme-stack/assets/icons/toggle-left.svg	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/toggle-left.svg	2022-05-06 01:04:28.767212709 +0700
+@@ -1,7 +1,5 @@
+ <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+-  <path stroke="none" d="M0 0h24v24H0z"/>
+-  <circle cx="8" cy="12" r="2" />
+-  <rect x="2" y="6" width="20" height="12" rx="6" />
++   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
++   <circle cx="12" cy="12" r="4"></circle>
++   <path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
+ </svg>
+-
+-
+diff -bur themes/hugo-theme-stack/assets/icons/toggle-right.svg ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/toggle-right.svg
+--- themes/hugo-theme-stack/assets/icons/toggle-right.svg	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons/toggle-right.svg	2022-05-06 01:04:28.767212709 +0700
+@@ -1,7 +1,6 @@
+ <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+-  <path stroke="none" d="M0 0h24v24H0z"/>
+-  <circle cx="16" cy="12" r="2" />
+-  <rect x="2" y="6" width="20" height="12" rx="6" />
++   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
++   <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
++   <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"></path>
++   <path d="M19 11h2m-1 -1v2"></path>
+ </svg>
+-
+-
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/icons: twitter.svg
+Only in themes/hugo-theme-stack/assets: img
+diff -bur themes/hugo-theme-stack/assets/jsconfig.json ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/jsconfig.json
+--- themes/hugo-theme-stack/assets/jsconfig.json	2022-05-06 01:36:24.076576181 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/jsconfig.json	2022-05-06 01:04:28.767212709 +0700
+@@ -2,9 +2,10 @@
+  "compilerOptions": {
+   "baseUrl": ".",
+   "paths": {
+-   "*": [
+-    "*"
+-   ]
+-  }
++            "*": [ "*" ]
++        },
++        "jsx": "preserve",
++        "lib": [ "es2015", "dom" ]
++
+  }
+ }
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/assets/scss/custom.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/custom.scss
+--- themes/hugo-theme-stack/assets/scss/custom.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/custom.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -1 +1,106 @@
+ /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+\ No newline at end of file
++.social-share {
++	position: relative;
++	top: -0.5em;
++}
++ 
++.social-share ul {
++	margin: 0;
++}
++ 
++.social-share ul li p {
++	display: none;
++}
++ 
++.social-share .share-icons li {
++	padding: 2px !important;
++	padding-bottom: 5px !important;
++}
++ 
++.social-share .share-btn {
++	padding: 0.25em;
++	width: 6em;
++}
++ 
++.social-share-nav .share-btn h3{
++	color: #ffffff;
++}
++
++ul.share-icons {
++	cursor: default;
++	list-style: none;
++	padding-left: 0;
++	margin-top: 1em;
++}
++
++ul.share-icons li {
++	display: inline-block;
++	padding: 0 1em 0 0;
++}
++
++ul.share-icons li:last-child {
++	padding-right: 0;
++}
++
++ul.share-icons li > * {
++	text-decoration: none;
++	border: 0;
++}
++
++ul.share-icons li > *:before {
++	-moz-osx-font-smoothing: grayscale;
++	-webkit-font-smoothing: antialiased;
++	font-family: FontAwesome;
++	font-style: normal;
++	font-weight: normal;
++	text-transform: none !important;
++}
++
++ul.share-icons li > * .label {
++	display: none;
++}
++ 
++.share-btn {
++	box-shadow: var(--shadow-l1);
++    border-radius: var(--tag-border-radius);
++	display: inline-block;
++	color: #ffffffcb;
++	outline: none;
++	text-align: center;
++	text-decoration: none;
++}
++ 
++.share-btn:hover {
++	color: #ffffff !important;
++}
++
++.share-btn:active {
++	position: relative;
++	top: 2px;
++	box-shadow: none;
++	color: #e2e2e2;
++	outline: none;
++}
++.share-btn .widget-social__link-icon {
++	margin: 0;
++}
++ 
++.share-btn.twitter     { background: #55acee; }
++.share-btn.google-plus { background: #dd4b39; }
++.share-btn.facebook    { background: #3B5998; }
++.share-btn.linkedin    { background: #4875B4; }
++.share-btn.stumbleupon { background: #EB4823; }
++.share-btn.pinterest   { background: #BD081C; }
++.share-btn.reddit      { background: #ff5700; }
++.share-btn.email       { background: #8600bb; }
++.share-btn.whatsapp    { background: #25d366; }
++
++
++.share-btn.twitter:hover     { background: #4c9ad6; }
++.share-btn.google-plus:hover { background: #c64333; }
++.share-btn.facebook:hover    { background: #2f4779; }
++.share-btn.linkedin:hover    { background: #4069a2; }
++.share-btn.stumbleupon:hover { background: #d3401f; }
++.share-btn.pinterest:hover   { background: #AD0000; }
++.share-btn.reddit:hover      { background: #e54e00; }
++.share-btn.email:hover       { background: #700074; }
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/assets/scss/grid.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/grid.scss
+--- themes/hugo-theme-stack/assets/scss/grid.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/grid.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -11,7 +11,7 @@
+ 
+         /// Display right sidebar when min-width: lg
+         @include respond(lg) {
+-            display: flex;
++            display: block;
+         }
+     }
+ 
+@@ -67,6 +67,24 @@
+         }
+     }
+ 
++    &.align-items--flex-start {
++        align-items: flex-start;
++    }
++
++    .grow {
++        flex-grow: 1;
++    }
++
++    .do-not-shrink {
++        flex-shrink: 0;
++    }
++
++    .do-not-overflow {
++        min-width: 0;
++        flex-shrink: 1;
++        max-width: 100%;
++    }
++
+     .full-width {
+         width: 100%;
+     }
+@@ -76,21 +94,14 @@
+     min-width: 0;
+     max-width: 100%;
+     flex-grow: 1;
+-    display: flex;
+-    flex-direction: column;
+-    gap: var(--section-separation);
+-
+-    @include respond(md) {
+         padding-top: var(--main-top-padding);
+-    }
+ }
+ 
+ .main-container {
+     min-height: 100vh;
+     align-items: flex-start;
+     padding: 0 15px;
+-    gap: var(--section-separation);
+-    padding-top: var(--main-top-padding);
++    column-gap: var(--section-separation);
+     
+     @include respond(md) {
+         padding: 0 20px;
+diff -bur themes/hugo-theme-stack/assets/scss/partials/article.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/article.scss
+--- themes/hugo-theme-stack/assets/scss/partials/article.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/article.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -2,7 +2,6 @@
+ .article-list {
+     display: flex;
+     flex-direction: column;
+-    gap: var(--section-separation);
+ 
+     article {
+         display: flex;
+@@ -18,6 +17,10 @@
+             box-shadow: var(--shadow-l2);
+         }
+ 
++        &:not(:last-of-type) {
++            margin-bottom: var(--section-separation);
++        }
++
+         .article-image {
+             img {
+                 width: 100%;
+@@ -36,12 +39,17 @@
+ 
+         @for $i from 1 through length($defaultTagBackgrounds) {
+             &:nth-child(#{length($defaultTagBackgrounds)}n + #{$i}) {
+-                .article-category a {
+-                    background: nth($defaultTagBackgrounds, $i);
++                .article-tags a {
++                    background: nth($defaultTagBackgrounds, random(length($defaultTagBackgrounds)));
+                     color: nth($defaultTagColors, $i);
++                    &:hover {
++                        color: var(--accent-color-text);
++                        background-color: var(--accent-color-darker);
+                 }
+             }
+         }
++
++        }
+     }
+ }
+ 
+@@ -49,13 +57,13 @@
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
++
+     padding: var(--card-padding);
+-    gap: 15px;
+ }
+ 
+ .article-title {
+     font-weight: 600;
+-    margin: 0;
++    margin: 10px 0;
+     color: var(--card-text-color-main);
+     font-size: 2.2rem;
+ 
+@@ -70,67 +78,66 @@
+             color: var(--card-text-color-main);
+         }
+     }
++
++    & + .article-subtitle {
++        margin-top: 0;
++    }
+ }
+ 
+ .article-subtitle {
+     font-weight: normal;
+     color: var(--card-text-color-secondary);
++    margin: 5px 0;
+     line-height: 1.5;
+-    margin: 0;
++
+     font-size: 1.75rem;
+     @include respond(xl) {
+         font-size: 2rem;
+     }
+ }
+ 
+-.article-title-wrapper {
+-    display: flex;
+-    flex-direction: column;
+-    gap: 8px;
+-}
+-
+-.article-time,
+-.article-translations {
++.article-time {
+     display: flex;
+     align-items: center;
+     color: var(--card-text-color-tertiary);
+     gap: 15px;
++    margin-top: 10px;
+     flex-wrap: wrap;
+ 
+     svg {
+         vertical-align: middle;
++        margin-right: 15px;
+         width: 20px;
+         height: 20px;
+         stroke-width: 1.33;
+     }
+ 
+-    time,
+-    a {
++    time {
+         font-size: 1.4rem;
+-        color: var(--card-text-color-tertiary);
+     }
+ 
+     & > div {
+         display: inline-flex;
+         align-items: center;
+-        gap: 15px;
+     }
+ }
+ 
+-.article-category,
+ .article-tags {
+-    display: flex;
+-    gap: 10px;
+-
+     a {
+-        color: var(--accent-color-text);
+-        background-color: var(--accent-color);
+         padding: 8px 16px;
+         border-radius: var(--tag-border-radius);
+         display: inline-block;
+         font-size: 1.4rem;
++        margin-right: 10px;
++        margin-bottom: 10px;
+         transition: background-color 0.5s ease;
+ 
++        @for $i from 1 through length($defaultTagBackgrounds) {
++            &:nth-child(#{length($defaultTagBackgrounds)}n + #{$i}) {
++                background: nth($defaultTagBackgrounds, random(length($defaultTagBackgrounds)));
++                color: nth($defaultTagColors, $i);
++            }
++        }
+         &:hover {
+             color: var(--accent-color-text);
+             background-color: var(--accent-color-darker);
+@@ -149,12 +156,15 @@
+         --image-size: 60px;
+     }
+ 
++    & + .pagination {
++        margin-top: var(--section-separation);
++    }
++
+     article {
+         & > a {
+             display: flex;
+             align-items: center;
+             padding: var(--small-card-padding);
+-            gap: 15px;
+         }
+ 
+         &:not(:last-of-type) {
+@@ -164,8 +174,8 @@
+         .article-details {
+             flex-grow: 1;
+             padding: 0;
++            padding-right: 15px;
+             min-height: var(--image-size);
+-            gap: 10px;
+         }
+ 
+         .article-title {
+diff -bur themes/hugo-theme-stack/assets/scss/partials/base.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/base.scss
+--- themes/hugo-theme-stack/assets/scss/partials/base.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/base.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -1,6 +1,7 @@
+ html {
+     font-size: 62.5%;
+     overflow-y: scroll;
++    scroll-behavior: smooth;
+ }
+ 
+ * {
+diff -bur themes/hugo-theme-stack/assets/scss/partials/footer.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/footer.scss
+--- themes/hugo-theme-stack/assets/scss/partials/footer.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/footer.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -2,6 +2,7 @@
+     padding: 20px 0 var(--section-separation) 0;
+     font-size: 1.4rem;
+     line-height: 1.75;
++    margin-top: var(--section-separation);
+ 
+     &:before {
+         content: "";
+diff -bur themes/hugo-theme-stack/assets/scss/partials/highlight/dark.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/highlight/dark.scss
+--- themes/hugo-theme-stack/assets/scss/partials/highlight/dark.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/highlight/dark.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -6,7 +6,7 @@
+ /* Background */
+ .chroma {
+     color: #f8f8f2;
+-    background-color: #272822
++    background-color: #31324b
+ }
+ 
+ /* Other */
+@@ -301,37 +301,37 @@
+ 
+ /* Comment */
+ .chroma .c {
+-    color: #75715e
++    color: #47a03f
+ }
+ 
+ /* CommentHashbang */
+ .chroma .ch {
+-    color: #75715e
++    color: #47a03f
+ }
+ 
+ /* CommentMultiline */
+ .chroma .cm {
+-    color: #75715e
++    color: #47a03f
+ }
+ 
+ /* CommentSingle */
+ .chroma .c1 {
+-    color: #75715e
++    color: #47a03f
+ }
+ 
+ /* CommentSpecial */
+ .chroma .cs {
+-    color: #75715e
++    color: #47a03f
+ }
+ 
+ /* CommentPreproc */
+ .chroma .cp {
+-    color: #75715e
++    color: #47a03f
+ }
+ 
+ /* CommentPreprocFile */
+ .chroma .cpf {
+-    color: #75715e
++    color: #47a03f
+ }
+ 
+ /* Generic */
+diff -bur themes/hugo-theme-stack/assets/scss/partials/highlight/light.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/highlight/light.scss
+--- themes/hugo-theme-stack/assets/scss/partials/highlight/light.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/highlight/light.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -6,12 +6,11 @@
+ /* Background */
+ .chroma {
+     color: #272822;
+-    background-color: #fafafa;
++    background-color: rgb(241, 241, 241);
+ }
+ 
+ /* Other */
+-.chroma .x {
+-}
++.chroma .x {}
+ 
+ /* Error */
+ .chroma .err {
+@@ -41,369 +40,367 @@
+ .chroma .hl {
+     display: block;
+     width: 100%;
+-    background-color: #ffffcc;
++    background-color: #ffffcc
+ }
+ 
+ /* LineNumbersTable */
+ .chroma .lnt {
+     margin-right: 0.4em;
+     padding: 0 0.4em 0 0.4em;
+-    color: #7f7f7f;
++    color: #7f7f7f
+ }
+ 
+ /* LineNumbers */
+ .chroma .ln {
+     margin-right: 0.4em;
+     padding: 0 0.4em 0 0.4em;
+-    color: #7f7f7f;
++    color: #7f7f7f
+ }
+ 
+ /* Keyword */
+ .chroma .k {
+-    color: #00a8c8;
++    color: #00a8c8
+ }
+ 
+ /* KeywordConstant */
+ .chroma .kc {
+-    color: #00a8c8;
++    color: #00a8c8
+ }
+ 
+ /* KeywordDeclaration */
+ .chroma .kd {
+-    color: #00a8c8;
++    color: #00a8c8
+ }
+ 
+ /* KeywordNamespace */
+ .chroma .kn {
+-    color: #f92672;
++    color: #f92672
+ }
+ 
+ /* KeywordPseudo */
+ .chroma .kp {
+-    color: #00a8c8;
++    color: #00a8c8
+ }
+ 
+ /* KeywordReserved */
+ .chroma .kr {
+-    color: #00a8c8;
++    color: #00a8c8
+ }
+ 
+ /* KeywordType */
+ .chroma .kt {
+-    color: #00a8c8;
++    color: #00a8c8
+ }
+ 
+ /* Name */
+ .chroma .n {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameAttribute */
+ .chroma .na {
+-    color: #75af00;
++    color: #75af00
+ }
+ 
+ /* NameBuiltin */
+ .chroma .nb {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameBuiltinPseudo */
+ .chroma .bp {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameClass */
+ .chroma .nc {
+-    color: #75af00;
++    color: #75af00
+ }
+ 
+ /* NameConstant */
+ .chroma .no {
+-    color: #00a8c8;
++    color: #00a8c8
+ }
+ 
+ /* NameDecorator */
+ .chroma .nd {
+-    color: #75af00;
++    color: #75af00
+ }
+ 
+ /* NameEntity */
+ .chroma .ni {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameException */
+ .chroma .ne {
+-    color: #75af00;
++    color: #75af00
+ }
+ 
+ /* NameFunction */
+ .chroma .nf {
+-    color: #75af00;
++    color: #75af00
+ }
+ 
+ /* NameFunctionMagic */
+ .chroma .fm {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameLabel */
+ .chroma .nl {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameNamespace */
+ .chroma .nn {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameOther */
+ .chroma .nx {
+-    color: #75af00;
++    color: #75af00
+ }
+ 
+ /* NameProperty */
+ .chroma .py {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameTag */
+ .chroma .nt {
+-    color: #f92672;
++    color: #f92672
+ }
+ 
+ /* NameVariable */
+ .chroma .nv {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameVariableClass */
+ .chroma .vc {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameVariableGlobal */
+ .chroma .vg {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameVariableInstance */
+ .chroma .vi {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* NameVariableMagic */
+ .chroma .vm {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* Literal */
+ .chroma .l {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* LiteralDate */
+ .chroma .ld {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralString */
+ .chroma .s {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringAffix */
+ .chroma .sa {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringBacktick */
+ .chroma .sb {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringChar */
+ .chroma .sc {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringDelimiter */
+ .chroma .dl {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringDoc */
+ .chroma .sd {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringDouble */
+ .chroma .s2 {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringEscape */
+ .chroma .se {
+-    color: #8045ff;
++    color: #8045ff
+ }
+ 
+ /* LiteralStringHeredoc */
+ .chroma .sh {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringInterpol */
+ .chroma .si {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringOther */
+ .chroma .sx {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringRegex */
+ .chroma .sr {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringSingle */
+ .chroma .s1 {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralStringSymbol */
+ .chroma .ss {
+-    color: #d88200;
++    color: #d88200
+ }
+ 
+ /* LiteralNumber */
+ .chroma .m {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* LiteralNumberBin */
+ .chroma .mb {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* LiteralNumberFloat */
+ .chroma .mf {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* LiteralNumberHex */
+ .chroma .mh {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* LiteralNumberInteger */
+ .chroma .mi {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* LiteralNumberIntegerLong */
+ .chroma .il {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* LiteralNumberOct */
+ .chroma .mo {
+-    color: #ae81ff;
++    color: #ae81ff
+ }
+ 
+ /* Operator */
+ .chroma .o {
+-    color: #f92672;
++    color: #f92672
+ }
+ 
+ /* OperatorWord */
+ .chroma .ow {
+-    color: #f92672;
++    color: #f92672
+ }
+ 
+ /* Punctuation */
+ .chroma .p {
+-    color: #111111;
++    color: #111111
+ }
+ 
+ /* Comment */
+ .chroma .c {
+-    color: #75715e;
++    color: #47a03f
+ }
+ 
+ /* CommentHashbang */
+ .chroma .ch {
+-    color: #75715e;
++    color: #47a03f
+ }
+ 
+ /* CommentMultiline */
+ .chroma .cm {
+-    color: #75715e;
++    color: #47a03f
+ }
+ 
+ /* CommentSingle */
+ .chroma .c1 {
+-    color: #75715e;
++    color: #47a03f
+ }
+ 
+ /* CommentSpecial */
+ .chroma .cs {
+-    color: #75715e;
++    color: #47a03f
+ }
+ 
+ /* CommentPreproc */
+ .chroma .cp {
+-    color: #75715e;
++    color: #47a03f
+ }
+ 
+ /* CommentPreprocFile */
+ .chroma .cpf {
+-    color: #75715e;
++    color: #47a03f
+ }
+ 
+ /* Generic */
+-.chroma .g {
+-}
++.chroma .g {}
++
+ /* GenericDeleted */
+-.chroma .gd {
+-    color: #f92672;
+-}
++.chroma .gd {}
++
+ /* GenericEmph */
+ .chroma .ge {
+-    font-style: italic;
++    font-style: italic
+ }
++
+ /* GenericError */
+-.chroma .gr {
+-}
++.chroma .gr {}
++
+ /* GenericHeading */
+-.chroma .gh {
+-}
++.chroma .gh {}
++
+ /* GenericInserted */
+-.chroma .gi {
+-    color: #7ca727;
+-}
++.chroma .gi {}
++
+ /* GenericOutput */
+-.chroma .go {
+-}
++.chroma .go {}
++
+ /* GenericPrompt */
+-.chroma .gp {
+-}
++.chroma .gp {}
++
+ /* GenericStrong */
+ .chroma .gs {
+-    font-weight: bold;
++    font-weight: bold
+ }
++
+ /* GenericSubheading */
+-.chroma .gu {
+-    color: #75715e;
+-}
++.chroma .gu {}
++
+ /* GenericTraceback */
+-.chroma .gt {
+-}
++.chroma .gt {}
++
+ /* GenericUnderline */
+-.chroma .gl {
+-}
++.chroma .gl {}
++
+ /* TextWhitespace */
+-.chroma .w {
+-}
++.chroma .w {}
+\ No newline at end of file
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/layout: archives.scss
+diff -bur themes/hugo-theme-stack/assets/scss/partials/layout/article.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/layout/article.scss
+--- themes/hugo-theme-stack/assets/scss/partials/layout/article.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/layout/article.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -13,6 +13,10 @@
+         box-shadow: var(--shadow-l1);
+         overflow: hidden;
+ 
++        &.main-article {
++            margin-bottom: var(--section-separation);
++        }
++
+         .article-header {
+             .article-image {
+                 img {
+@@ -49,30 +53,128 @@
+ 
+             section {
+                 color: var(--card-text-color-tertiary);
+-                text-transform: uppercase;
++                text-transform: title;
+                 display: flex;
+                 align-items: center;
+                 font-size: 1.4rem;
+-                gap: 15px;
+ 
+                 svg {
+                     width: 20px;
+                     height: 20px;
++                    margin-right: 15px;
+                     stroke-width: 1.33;
+                 }
+             }
+ 
+-            .article-tags {
+-                flex-wrap: wrap;
+-                text-transform: unset;
++            .article-copyright, .article-lastmod {
++                a {
++                    color: var(--body-text-color);
++                }
++            }
++        }
++    }
++}
++
++#article-toolbar {
++    display: flex;
++    align-items: center;
++    margin: 20px 0;
++
++    @include respond(md) {
++        display: none;
+             }
+ 
+-            .article-copyright,
+-            .article-lastmod {
++    .back-home {
++        background: var(--card-background);
++        border-radius: var(--tag-border-radius);
++        color: var(--card-text-color-tertiary);
++        margin-right: 30px;
++        display: inline-flex;
++        align-items: center;
++        font-size: 1.4rem;
++        text-transform: uppercase;
++        padding: 10px 20px 10px 15px;
++
++        transition: box-shadow 0.3s ease;
++
++        box-shadow: var(--shadow-l1);
++
++        &:hover {
++            box-shadow: var(--shadow-l2);
++        }
++
++        svg {
++            margin-right: 5px;
++            width: 20px;
++            height: 20px;
++        }
++
++        span {
++            font-weight: 500;
++            white-space: nowrap;
++        }
++    }
++}
++
++.article-page.has-toc {
++    scroll-behavior: smooth;
++
++    .left-sidebar {
++        display: none;
++    }
++
++    .right-sidebar {
++        width: 100%;
++        padding: 0;
++        display: none;
++
++        @include respond(xl) {
++            display: block;
++            top: var(--main-top-padding);
++        }
++    }
++
++    #article-toolbar {
++        display: block;
++
++        @include respond(md) {
++            padding: 0;
++        }
++
++        @include respond(xl) {
++            margin-top: 0;
++            position: sticky;
++            top: var(--main-top-padding);
++            flex-shrink: 1;
++
+                 a {
+-                    color: var(--body-text-color);
++                background: transparent;
++                box-shadow: none;
++                border: 1px solid var(--body-text-color);
++                width: 100%;
++                margin-right: 0;
++
++                svg {
++                    flex-shrink: 0;
++                }
++            }
+                 }
+             }
++
++    .main-container {
++        align-items: start;
++        flex-direction: column;
++
++        @include respond(xl) {
++            flex-direction: row;
++        }
++    }
++
++    .main {
++        padding-top: 0;
++
++        @include respond(xl) {
++            padding-top: var(--main-top-padding);
+         }
+     }
+ }
+@@ -86,10 +188,6 @@
+     color: var(--card-text-color-main);
+     overflow: hidden;
+ 
+-    ::-webkit-scrollbar-thumb {
+-        background-color: var(--card-separator-color);
+-    }
+-
+     #TableOfContents {
+         overflow-x: auto;
+         max-height: 75vh;
+@@ -104,7 +202,7 @@
+             list-style-type: none;
+             counter-reset: item;
+ 
+-            li a::before {
++            li:before {
+                 counter-increment: item;
+                 content: counters(item, ".") ". ";
+                 font-weight: bold;
+@@ -117,7 +215,7 @@
+         }
+ 
+         li {
+-            margin: 15px 0 15px 20px;
++            margin: 15px 20px;
+             padding: 5px;
+ 
+             & > ol,
+@@ -131,39 +229,12 @@
+                 }
+             }
+         }
+-        li.active-class > a {
+-            border-left: var(--heading-border-size) solid var(--accent-color);
+-            font-weight: bold;
+         }
++}
+ 
+-        ul li.active-class > a {
+-            display: block;
+-        }
+ 
+-        @function repeat($str, $n) {
+-            $result: "";
+-            @for $_ from 0 to $n {
+-                $result: $result + $str;
+-            }
+-            @return $result;
+-        }
+-
+-        // Support up to 6 levels of indentation for lists in ToCs
+-        @for $i from 0 to 5 {
+-            & > ul #{repeat("> li > ul", $i)} > li.active-class > a {
+-                $n: 25 + $i * 35;
+-                margin-left: calc(-#{$n}px - 1em);
+-                padding-left: calc(#{$n}px + 1em - var(--heading-border-size));
+-            }
+-
+-            & > ol #{repeat("> li > ol", $i)} > li.active-class > a {
+-                $n: 9 + $i * 35;
+-                margin-left: calc(-#{$n}px - 1em);
+-                padding-left: calc(#{$n}px + 1em - var(--heading-border-size));
+-                display: block;
+-            }
+-        }
+-    }
++.related-contents--wrapper {
++    margin-bottom: var(--section-separation);
+ }
+ 
+ .related-contents {
+@@ -211,9 +282,9 @@
+     h4,
+     h5,
+     h6 {
+-        margin-inline-start: calc((var(--card-padding)) * -1);
+-        padding-inline-start: calc(var(--card-padding) - var(--heading-border-size));
+-        border-inline-start: var(--heading-border-size) solid var(--accent-color);
++        margin-left: calc((var(--card-padding)) * -1);
++        padding-left: calc(var(--card-padding) - var(--heading-border-size));
++        border-left: var(--heading-border-size) solid var(--accent-color);
+     }
+ 
+     figure {
+@@ -228,7 +299,7 @@
+     blockquote {
+         position: relative;
+         margin: 1.5em 0;
+-        border-inline-start: var(--blockquote-border-size) solid var(--card-separator-color);
++        border-left: var(--blockquote-border-size) solid var(--card-separator-color);
+         padding: 15px calc(var(--card-padding) - var(--blockquote-border-size));
+         background-color: var(--blockquote-background-color);
+     }
+@@ -243,6 +314,7 @@
+     }
+ 
+     code {
++        
+         color: var(--code-text-color);
+         background-color: var(--code-background-color);
+         padding: 2px 4px;
+@@ -256,26 +328,28 @@
+         flex-direction: row;
+         justify-content: center;
+         margin: 1.5em 0;
+-        gap: 10px;
+ 
+         figure {
+             margin: 0;
++
++            & + figure {
++                margin-left: 10px;
++            }
+         }
+     }
+ 
+     pre {
+         overflow-x: auto;
++        overflow-y: auto;
++        max-height: 800px;
+         display: block;
+         background-color: var(--pre-background-color);
+         color: var(--pre-text-color);
+         font-family: var(--code-font-family);
+-        line-height: 1.428571429;
++        line-height: 1.7;
+         word-break: break-all;
+         padding: var(--card-padding);
+-        //  keep Codeblocks LTR
+-        [dir="rtl"] & {
+-            direction: ltr;
+-        }
++
+         code {
+             color: unset;
+             border: none;
+@@ -284,50 +358,6 @@
+         }
+     }
+ 
+-    .highlight {
+-        background-color: var(--pre-background-color);
+-        padding: var(--card-padding);
+-        position: relative;
+-
+-        &:hover {
+-            .copyCodeButton {
+-                opacity: 1;
+-            }
+-        }
+-        // keep Codeblocks LTR
+-        [dir="rtl"] & {
+-            direction: ltr;
+-        }
+-        pre {
+-            margin: initial;
+-            padding: 0;
+-            margin: 0;
+-            width: auto;
+-        }
+-    }
+-
+-    .copyCodeButton {
+-        position: absolute;
+-        top: calc(var(--card-padding));
+-        right: calc(var(--card-padding));
+-        background: var(--card-background);
+-        border: none;
+-        box-shadow: var(--shadow-l2);
+-        border-radius: var(--tag-border-radius);
+-        padding: 8px 16px;
+-        color: var(--card-text-color-main);
+-        cursor: pointer;
+-        font-size: 14px;
+-        opacity: 0;
+-        transition: opacity 0.3s ease;
+-    }
+-
+-    .table-wrapper {
+-        padding: 0 var(--card-padding);
+-        overflow-x: auto;
+-        display: block;
+-    }
+-
+     table {
+         width: 100%;
+         border-collapse: collapse;
+@@ -376,14 +406,38 @@
+     /// Negative margins
+     blockquote,
+     figure,
+-    .highlight,
+-    pre,
+     .gallery,
++    pre,
+     .video-wrapper,
+-    .table-wrapper,
+     .s_video_simple {
+         margin-left: calc((var(--card-padding)) * -1);
+         margin-right: calc((var(--card-padding)) * -1);
+         width: calc(100% + var(--card-padding) * 2);
+     }
++
++    .highlight {
++        position: relative;
++
++        &:hover {
++            .copyCodeButton {
++                opacity: 1;
++            }
++        }
++    }
++
++    .copyCodeButton {
++        position: absolute;
++        top: calc(var(--card-padding));
++        right: 0;
++        background: var(--card-background);
++        border: none;
++        box-shadow: var(--shadow-l2);
++        border-radius: var(--tag-border-radius);
++        padding: 8px 16px;
++        color: var(--card-text-color-main);
++        cursor: pointer;
++        font-size: 14px;
++        opacity: 0;
++        transition: opacity 0.3s ease;
++    }
+ }
+diff -bur themes/hugo-theme-stack/assets/scss/partials/layout/list.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/layout/list.scss
+--- themes/hugo-theme-stack/assets/scss/partials/layout/list.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/layout/list.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -3,16 +3,21 @@
+     background-color: var(--card-background);
+     padding: var(--small-card-padding);
+     box-shadow: var(--shadow-l1);
++    margin-bottom: var(--section-separation);
+     display: flex;
+     align-items: center;
+-    gap: 20px;
+ 
+     --separation: 15px;
+ 
+     .section-term {
+         font-size: 2.2rem;
+         margin: 0;
++        margin-top: calc(var(--separation) / 2);
+         color: var(--card-text-color-main);
++
++        & + .section-description {
++            margin-top: var(--separation);
++        }
+     }
+ 
+     .section-description {
+@@ -24,9 +29,7 @@
+ 
+     .section-details {
+         flex-grow: 1;
+-        display: flex;
+-        flex-direction: column;
+-        gap: 8px;
++        margin-right: 20px;
+     }
+ 
+     .section-image {
+@@ -46,6 +49,7 @@
+ }
+ 
+ .subsection-list {
++    margin-bottom: var(--section-separation);
+     overflow-x: auto;
+ 
+     .article-list--tile {
+diff -bur themes/hugo-theme-stack/assets/scss/partials/layout/search.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/layout/search.scss
+--- themes/hugo-theme-stack/assets/scss/partials/layout/search.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/layout/search.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -1,4 +1,5 @@
+ .search-form {
++    margin-bottom: var(--section-separation);
+     position: relative;
+     --button-size: 80px;
+ 
+@@ -24,7 +25,7 @@
+     label {
+         position: absolute;
+         top: 15px;
+-        inset-inline-start: 20px;
++        left: 20px;
+         font-size: 1.4rem;
+         color: var(--card-text-color-tertiary);
+     }
+@@ -51,7 +52,7 @@
+ 
+     button {
+         position: absolute;
+-        inset-inline-end: 0;
++        right: 0;
+         top: 0;
+         height: 100%;
+         width: var(--button-size);
+@@ -78,5 +79,4 @@
+             height: 20px;
+         }
+     }
+-
+ }
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/assets/scss/partials/menu.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/menu.scss
+--- themes/hugo-theme-stack/assets/scss/partials/menu.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/menu.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -101,16 +101,11 @@
+     background: none;
+     border: none;
+     position: absolute;
+-    right: 0;
+-    top: 0;
++    right: 30px;
++    top: 30px;
+     z-index: 2;
+     cursor: pointer;
+ 
+-    [dir="rtl"] & {
+-        left: 0;
+-        right: auto;
+-    }
+-
+     @include respond(md) {
+         display: none;
+     }
+@@ -130,31 +125,21 @@
+ .menu {
+     padding-left: 0;
+     list-style: none;
++    display: flex;
+     flex-direction: column;
+     overflow-y: auto;
+     flex-grow: 1;
+     font-size: 1.4rem;
+-    background-color: var(--card-background);
+ 
++    background-color: var(--card-background);
++    padding: 15px 0;
+     box-shadow: var(--shadow-l1);
+     display: none;
+-    margin: 0 calc(var(--container-padding) * -1);
+ 
+-    padding: 30px 30px;
+-    @include respond(xl) {
+-        padding: 15px 0;
+-    }
+-
+-    &,
+-    .menu-bottom-section {
+-        gap: 30px;
+-        @include respond(xl) {
+-            gap: 25px;
+-        }
+-    }
++    margin: 0 -15px;
+ 
+     &.show {
+-        display: flex;
++        display: block;
+     }
+ 
+     @include respond(md) {
+@@ -164,19 +149,34 @@
+         padding: 0;
+         box-shadow: none;
+         margin: 0;
++        margin-top: var(--sidebar-element-separation);
++    }
++
++    @include respond(xl) {
++        margin-top: 30px;
+     }
+ 
+     li {
+         position: relative;
+         vertical-align: middle;
+-        padding: 0;
++        padding: 10px 30px;
++
++        &:not(:last-of-type) {
++            margin-bottom: 15px;
++
++            @include respond(xl) {
++                margin-bottom: 20px;
++            }
++        }
+ 
+         @include respond(md) {
+             width: 100%;
++            padding: 10px 0;
+         }
+ 
+         svg {
+-            stroke-width: 1.33;
++            stroke-width: 1.333;
++            margin-right: 40px;
+ 
+             width: 20px;
+             height: 20px;
+@@ -185,9 +185,8 @@
+         a {
+             height: 100%;
+             display: inline-flex;
+-            align-items: center;
++            align-items: left;
+             color: var(--body-text-color);
+-            gap: var(--menu-icon-separation);
+         }
+ 
+         span {
+@@ -201,27 +200,4 @@
+             }
+         }
+     }
+-
+-    .menu-bottom-section {
+-        margin-top: auto;
+-        display: flex;
+-        flex-direction: column;
+-        width: 100%;
+-    }
+-}
+-
+-.social-menu {
+-    list-style: none;
+-    padding: 0;
+-    margin: 0;
+-    display: flex;
+-    flex-direction: row;
+-    gap: 10px;
+-
+-    svg {
+-        width: 24px;
+-        height: 24px;
+-        stroke: var(--body-text-color);
+-        stroke-width: 1.33;
+-    }
+ }
+diff -bur themes/hugo-theme-stack/assets/scss/partials/pagination.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/pagination.scss
+--- themes/hugo-theme-stack/assets/scss/partials/pagination.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/pagination.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -5,6 +5,7 @@
+     border-radius: var(--card-border-radius);
+     overflow: hidden;
+     flex-wrap: wrap;
++    margin: var(--section-separation) 0;
+ 
+     .page-link {
+         padding: 16px 32px;
+diff -bur themes/hugo-theme-stack/assets/scss/partials/sidebar.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/sidebar.scss
+--- themes/hugo-theme-stack/assets/scss/partials/sidebar.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/sidebar.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -11,15 +11,13 @@
+     flex-direction: column;
+     flex-shrink: 0;
+     align-self: stretch;
+-    gap: var(--sidebar-element-separation);
+-    max-width: none;
++
+     width: 100%;
+-    position: relative;
++    padding: 30px 0 15px 0;
++    max-width: none;
+ 
+-    --sidebar-avatar-size: 100px;
++    --sidebar-avatar-size: 120px;
+     --sidebar-element-separation: 20px;
+-    --emoji-size: 40px;
+-    --emoji-font-size: 20px;
+ 
+     @include respond(md) {
+         width: auto;
+@@ -29,49 +27,18 @@
+     }
+ 
+     @include respond(2xl) {
+-        --sidebar-avatar-size: 120px;
++        --sidebar-avatar-size: 140px;
+         --sidebar-element-separation: 25px;
+-        --emoji-size: 40px;
+     }
+ 
+     &.sticky {
+         top: 0;
+     }
+-
+-    &.compact {
+-        --sidebar-avatar-size: 80px;
+-        --emoji-size: 30px;
+-        --emoji-font-size: 15px;
+-
+-        header {
+-            @include respond(lg) {
+-                flex-direction: row;
+-            }
+-
+-            .site-meta {
+-                gap: 5px;
+-            }
+-
+-            .site-name {
+-                font-size: 1.4rem;
+-
+-                @include respond(2xl) {
+-                    font-size: 1.75rem;
+-                }
+-            }
+-
+-            .site-description {
+-                font-size: 1.4rem;
+-            }
+-        }
+-    }
+ }
+ 
+ .right-sidebar {
+-    width: 100%;
++    flex-shrink: 0;
+     display: none;
+-    flex-direction: column;
+-    gap: var(--widget-separation);
+ 
+     &.sticky {
+         top: 0;
+@@ -82,12 +49,11 @@
+     }
+ }
+ 
+-.sidebar header {
++.site-info {
+     z-index: 1;
+     transition: box-shadow 0.5s ease;
+-    display: flex;
+-    flex-direction: column;
+-    gap: var(--sidebar-element-separation);
++
++    padding: 15px;
+ 
+     @include respond(md) {
+         padding: 0;
+@@ -98,7 +64,8 @@
+         margin: 0;
+         width: var(--sidebar-avatar-size);
+         height: var(--sidebar-avatar-size);
+-        flex-shrink: 0;
++
++        margin-bottom: var(--sidebar-element-separation);
+ 
+         .site-logo {
+             width: 100%;
+@@ -109,51 +76,65 @@
+ 
+         .emoji {
+             position: absolute;
+-            width: var(--emoji-size);
+-            height: var(--emoji-size);
+-            line-height: var(--emoji-size);
++            width: 40px;
++            height: 40px;
++            line-height: 40px;
+             border-radius: 100%;
+             bottom: 0;
+             right: 0;
+             text-align: center;
+-            font-size: var(--emoji-font-size);
++            font-size: 20px;
+             background-color: var(--card-background);
+             box-shadow: var(--shadow-l2);
++
++            @include respond(2xl) {
++                width: 50px;
++                height: 50px;
++                line-height: 50px;
+         }
+     }
+-
+-    .site-meta {
+-        display: flex;
+-        flex-direction: column;
+-        gap: 10px;
+-        justify-content: center;
+     }
+ 
+     .site-name {
+         color: var(--accent-color);
+         margin: 0;
+-        font-size: 1.6rem;
++        font-size: 1.8rem;
+ 
+         @include respond(2xl) {
+-            font-size: 1.8rem;
++            font-size: 2rem;
+         }
+     }
+ 
+     .site-description {
+         color: var(--body-text-color);
+         font-weight: normal;
+-        margin: 0;
+-        font-size: 1.4rem;
++        margin: 10px 0;
++        font-size: 1.6rem;
+ 
+         @include respond(2xl) {
+-            font-size: 1.6rem;
++            font-size: 1.8rem;
++        }
++    }
++}
++
++.sidebar {
++    .widget {
++        margin-bottom: var(--widget-separation);
++
++        &:not(:last-of-type):after {
++            content: "";
++            width: 100px;
++            height: 2px;
++            background-color: var(--body-text-color);
++            display: block;
++            margin-top: var(--section-separation);
+         }
+     }
+ }
+ 
+ [data-scheme="dark"] {
+     #dark-mode-toggle {
+-        color: var(--accent-color);
++       
+         font-weight: 700;
+ 
+         .icon-tabler-toggle-left {
+@@ -163,6 +144,14 @@
+         .icon-tabler-toggle-right {
+             display: unset;
+         }
++
++        .theme-light {
++            display: none;
++        }
++
++        .theme-dark {
++            display: unset
++        }
+     }
+ }
+ 
+@@ -172,27 +161,12 @@
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+-    gap: var(--menu-icon-separation);
+ 
+     .icon-tabler-toggle-right {
+         display: none;
+     }
+-}
+-
+-#i18n-switch {
+-    color: var(--body-text-color);
+-    display: inline-flex;
+-    align-content: center;
+-    gap: var(--menu-icon-separation);
+-
+-    select {
+-        border: 0;
+-        background-color: transparent;
+-        color: var(--body-text-color);
+ 
+-        option {
+-            color: var(--card-text-color-main);
+-            background-color: var(--card-background);
+-        }
++    .theme-dark {
++        display: none;
+     }
+ }
+diff -bur themes/hugo-theme-stack/assets/scss/partials/widgets.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/widgets.scss
+--- themes/hugo-theme-stack/assets/scss/partials/widgets.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/partials/widgets.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -1,7 +1,4 @@
+ .widget {
+-    display: flex;
+-    flex-direction: column;
+-
+     .widget-icon {
+         svg {
+             width: 32px;
+@@ -17,16 +14,25 @@
+     .tagCloud-tags {
+         display: flex;
+         flex-wrap: wrap;
+-        gap: 10px;
+ 
+         a {
+-            background: var(--card-background);
+             box-shadow: var(--shadow-l1);
+             border-radius: var(--tag-border-radius);
+             padding: 8px 20px;
+-            color: var(--card-text-color-main);
++            @for $i from 1 through length($defaultTagBackgrounds) {
++                &:nth-child(#{length($defaultTagBackgrounds)}n + #{$i}) {
++                    background: nth($defaultTagBackgrounds, random(length($defaultTagBackgrounds)));
++                    color: nth($defaultTagColors, $i);  
++                }
++                &:hover {
++                    color: var(--accent-color-text);
++                    background-color: var(--accent-color-darker);
++                }
++            }
++            margin-bottom: 10px;
++            margin-right: 5px;
+             font-size: 1.4rem;
+-            transition: box-shadow 0.3s ease;
++            transition: box-shadow 0.5s ease;
+ 
+             &:hover {
+                 box-shadow: var(--shadow-l2);
+@@ -65,3 +71,24 @@
+         }
+     }
+ }
++
++.widget.subscribe {
++    position: relative;
++
++    .subscribe-label {
++        position: bottom;
++        left: 0%;
++        top: 50%;
++        color: var(--body-text-color);
++    }
++
++    .subscribe-link {
++        font-weight: bold;
++        color: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
++        &:hover {
++            color: var(--accent-color-darker);
++            box-shadow: 0px -2px 0px rgba(var(--link-background-color), var(--link-background-opacity-hover)) inset;
++        }
++    }
++
++}
+diff -bur themes/hugo-theme-stack/assets/scss/style.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/style.scss
+--- themes/hugo-theme-stack/assets/scss/style.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/style.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -19,6 +19,7 @@
+ @import "partials/pagination.scss";
+ @import "partials/sidebar.scss";
+ @import "partials/base.scss";
++@import "partials/layout/archives.scss";
+ @import "partials/layout/article.scss";
+ @import "partials/layout/list.scss";
+ @import "partials/layout/404.scss";
+diff -bur themes/hugo-theme-stack/assets/scss/variables.scss ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/variables.scss
+--- themes/hugo-theme-stack/assets/scss/variables.scss	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/scss/variables.scss	2022-05-06 01:04:28.767212709 +0700
+@@ -1,11 +1,25 @@
+-$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6;
+-$defaultTagColors: #fff, #fff, #fff, #fff, #fff;
++$defaultTagBackgrounds: #8ea885, #df7988, #0177b8, #ffb900, #6b69d6, #7bbc59, #e494b4, #df4305, #63AAF4, #B23B4F, #F483B2, #1AA801, #650AA1, #F05B51;
++$defaultTagColors: #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff, #fff;
++
++[data-scheme="light"] {
++    --pre-text-color: #272822;
++    --pre-background-color: #fafafa;
++    @import "partials/highlight/light.scss";
++}
++
++[data-scheme="dark"] {
++    --pre-text-color: #f8f8f2;
++    --pre-background-color: #232228;
++    @import "partials/highlight/dark.scss";
++}
+ 
+ /*
+ *   Global style
+ */
+ :root {
++    @include respond(md) {
+     --main-top-padding: 35px;
++    }
+ 
+     @include respond(xl) {
+         --main-top-padding: 50px;
+@@ -16,22 +30,24 @@
+     --accent-color: #34495e;
+     --accent-color-darker: #2c3e50;
+     --accent-color-text: #fff;
+-    --body-text-color: #bababa;
++    --body-text-color: #7e7e7e;
+ 
+     --tag-border-radius: 4px;
+ 
+-    --section-separation: 40px;
++    --section-separation: 50px;
++
++    --widget-separation: 20px;
+ 
+     --scrollbar-thumb: hsl(0, 0%, 85%);
+     --scrollbar-track: var(--body-background);
+ 
+     &[data-scheme="dark"] {
+-        --body-background: #303030;
+-        --accent-color: #ecf0f1;
++        --body-background: #1c1c27;
++        --accent-color: #58a9bd;
+         --accent-color-darker: #bdc3c7;
+         --accent-color-text: #000;
+-        --body-text-color: rgba(255, 255, 255, 0.7);
+-        --scrollbar-thumb: hsl(0, 0%, 40%);
++        --body-text-color: rgba(255, 255, 255, 0.548);
++        --scrollbar-thumb: #40405a;
+         --scrollbar-track: var(--body-background);
+     }
+ }
+@@ -78,9 +94,9 @@
+     }
+ 
+     &[data-scheme="dark"] {
+-        --card-background: #424242;
+-        --card-background-selected: rgba(255, 255, 255, 0.16);
+-        --card-text-color-main: rgba(255, 255, 255, 0.9);
++        --card-background: #28293D;
++        --card-background-selected: rgba(97, 97, 97, 0.342);
++        --card-text-color-main: rgba(255, 255, 255, 0.8);
+         --card-text-color-secondary: rgba(255, 255, 255, 0.7);
+         --card-text-color-tertiary: rgba(255, 255, 255, 0.5);
+         --card-separator-color: rgba(255, 255, 255, 0.12);
+@@ -106,31 +122,31 @@
+ */
+ :root {
+     --blockquote-border-size: 4px;
+-    --blockquote-background-color: rgb(248 248 248);
++    --blockquote-background-color: rgb(241, 241, 241);
+ 
+     --heading-border-size: 4px;
+ 
+-    --link-background-color: 189, 195, 199;
++    --link-background-color: 87, 93, 143;
+     --link-background-opacity: 0.5;
+     --link-background-opacity-hover: 0.7;
+ 
+-    --pre-background-color: #272822;
+-    --pre-text-color: #f8f8f2;
+-
+-    --code-background-color: rgba(0, 0, 0, 0.12);
+-    --code-text-color: #808080;
++    --pre-background-color: rgb(241, 241, 241);
++    --pre-text-color: #272727;
++    --code-background-color: rgb(228, 228, 228);
++    --code-text-color: #2c2c2c;
+ 
+-    --table-border-color: #dadada;
+-    --tr-even-background-color: #efefee;
++    --table-border-color: #dadada91;
++    --tr-even-background-color: #e0e0e033;
+ 
+     &[data-scheme="dark"] {
+-        --code-background-color: #272822;
+         --code-text-color: rgba(255, 255, 255, 0.9);
+-
+-        --table-border-color: #717171;
+-        --tr-even-background-color: #545454;
+-
+-        --blockquote-background-color: rgb(75 75 75);
++        --link-background-color: 87, 93, 143;
++        --pre-background-color: #31324b;
++        --pre-text-color: #e4e4e4;
++        --code-background-color: rgba(255, 255, 255, 0.123);
++        --blockquote-background-color: rgb(49, 50, 75);
++        --table-border-color: #dadada91;
++        --tr-even-background-color: #e0e0e033;
+     }
+ }
+ 
+@@ -139,27 +155,9 @@
+ *   Thanks to https://www.figma.com/community/plugin/744987207861965946/Shadow-picker
+ */
+ :root {
+-    --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+-    --shadow-l2: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
++    --shadow-l1: 0px 2px 20px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(0, 0, 0, 0), 0px 0px 1px rgba(0, 0, 0, 0);
++    --shadow-l2: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+     --shadow-l3: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+     --shadow-l4: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04),
+         0px 0px 1px rgba(0, 0, 0, 0.04);
+ }
+-
+-[data-scheme="light"] {
+-    --pre-text-color: #272822;
+-    --pre-background-color: #fafafa;
+-    @import "partials/highlight/light.scss";
+-}
+-
+-[data-scheme="dark"] {
+-    --pre-text-color: #f8f8f2;
+-    --pre-background-color: #272822;
+-    @import "partials/highlight/dark.scss";
+-}
+-
+-:root {
+-    --menu-icon-separation: 40px;
+-    --container-padding: 15px;
+-    --widget-separation: var(--section-separation);
+-}
+diff -bur themes/hugo-theme-stack/assets/ts/gallery.ts ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/ts/gallery.ts
+--- themes/hugo-theme-stack/assets/ts/gallery.ts	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/ts/gallery.ts	2022-05-06 01:04:28.767212709 +0700
+@@ -57,60 +57,6 @@
+     }
+ 
+     public static createGallery(container: HTMLElement) {
+-        /// The process of wrapping image with figure tag is done using JavaScript instead of only Hugo markdown render hook
+-        /// because it can not detect whether image is being wrapped by a link or not
+-        /// and it lead to a invalid HTML construction (<a><figure><img></figure></a>)
+-
+-        const images = container.querySelectorAll('img.gallery-image');
+-        for (const img of Array.from(images)) {
+-            /// Images are wrapped with figure tag if the paragraph has only images without texts
+-            /// This is done to allow inline images within paragraphs
+-            const paragraph = img.closest('p');
+-
+-            if (!paragraph || !container.contains(paragraph)) continue;
+-
+-            if (paragraph.textContent.trim() == '') {
+-                /// Once we insert figcaption, this check no longer works
+-                /// So we add a class to paragraph to mark it
+-                paragraph.classList.add('no-text');
+-            }
+-
+-            let isNewLineImage = paragraph.classList.contains('no-text');
+-            if (!isNewLineImage) continue;
+-
+-            const hasLink = img.parentElement.tagName == 'A';
+-
+-            let el: HTMLElement = img;
+-            /// Wrap image with figure tag, with flex-grow and flex-basis values extracted from img's data attributes
+-            const figure = document.createElement('figure');
+-            figure.style.setProperty('flex-grow', img.getAttribute('data-flex-grow') || '1');
+-            figure.style.setProperty('flex-basis', img.getAttribute('data-flex-basis') || '0');
+-            if (hasLink) {
+-                /// Wrap <a> if it exists
+-                el = img.parentElement;
+-            }
+-            el.parentElement.insertBefore(figure, el);
+-            figure.appendChild(el);
+-
+-            /// Add figcaption if it exists
+-            if (img.hasAttribute('alt')) {
+-                const figcaption = document.createElement('figcaption');
+-                figcaption.innerText = img.getAttribute('alt');
+-                figure.appendChild(figcaption);
+-            }
+-
+-            /// Wrap img tag with <a> tag if image was not wrapped by <a> tag
+-            if (!hasLink) {
+-                figure.className = 'gallery-image';
+-
+-                const a = document.createElement('a');
+-                a.href = img.src;
+-                a.setAttribute('target', '_blank');
+-                img.parentNode.insertBefore(a, img);
+-                a.appendChild(img);
+-            }
+-        }
+-
+         const figuresEl = container.querySelectorAll('figure.gallery-image');
+ 
+         let currentGallery = [];
+diff -bur themes/hugo-theme-stack/assets/ts/main.ts ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/ts/main.ts
+--- themes/hugo-theme-stack/assets/ts/main.ts	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/ts/main.ts	2022-05-06 01:04:28.767212709 +0700
+@@ -10,8 +10,6 @@
+ import menu from 'ts/menu';
+ import createElement from 'ts/createElement';
+ import StackColorScheme from 'ts/colorScheme';
+-import { setupScrollspy } from 'ts/scrollspy';
+-import { setupSmoothAnchors } from "ts/smoothAnchors";
+ 
+ let Stack = {
+     init: () => {
+@@ -23,8 +21,6 @@
+         const articleContent = document.querySelector('.article-content') as HTMLElement;
+         if (articleContent) {
+             new StackGallery(articleContent);
+-            setupSmoothAnchors();
+-            setupScrollspy();
+         }
+ 
+         /**
+@@ -62,21 +58,20 @@
+         /**
+          * Add copy button to code block
+         */
+-        const highlights = document.querySelectorAll('.article-content div.highlight');
++        const codeBlocks = document.querySelectorAll('.article-content .highlight');
+         const copyText = `Copy`,
+             copiedText = `Copied!`;
+-
+-        highlights.forEach(highlight => {
++        codeBlocks.forEach(codeBlock => {
+             const copyButton = document.createElement('button');
+             copyButton.innerHTML = copyText;
+             copyButton.classList.add('copyCodeButton');
+-            highlight.appendChild(copyButton);
++            codeBlock.appendChild(copyButton);
+ 
+-            const codeBlock = highlight.querySelector('code[data-lang]');
+-            if (!codeBlock) return;
++            const pre = codeBlock.getElementsByTagName('pre');
++            const code = pre[0].textContent;
+ 
+             copyButton.addEventListener('click', () => {
+-                navigator.clipboard.writeText(codeBlock.textContent)
++                navigator.clipboard.writeText(code)
+                     .then(() => {
+                         copyButton.textContent = copiedText;
+ 
+Only in themes/hugo-theme-stack/assets/ts: scrollspy.ts
+diff -bur themes/hugo-theme-stack/assets/ts/search.tsx ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/ts/search.tsx
+--- themes/hugo-theme-stack/assets/ts/search.tsx	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/assets/ts/search.tsx	2022-05-06 01:04:28.767212709 +0700
+@@ -8,11 +8,6 @@
+     matchCount: number
+ }
+ 
+-interface match {
+-    start: number,
+-    end: number
+-}
+-
+ /**
+  * Escape HTML tags as HTML entities
+  * Edited from:
+@@ -58,131 +53,79 @@
+         this.bindSearchForm();
+     }
+ 
+-    /**
+-     * Processes search matches
+-     * @param str original text
+-     * @param matches array of matches
+-     * @param ellipsis whether to add ellipsis to the end of each match
+-     * @param charLimit max length of preview string
+-     * @param offset how many characters before and after the match to include in preview
+-     * @returns preview string
+-     */
+-    private static processMatches(str: string, matches: match[], ellipsis: boolean = true, charLimit = 140, offset = 20): string {
+-        matches.sort((a, b) => {
+-            return a.start - b.start;
+-        });
+-
+-        let i = 0,
+-            lastIndex = 0,
+-            charCount = 0;
+-
+-        const resultArray: string[] = [];
+-
+-        while (i < matches.length) {
+-            const item = matches[i];
+-
+-            /// item.start >= lastIndex (equal only for the first iteration)
+-            /// because of the while loop that comes after, iterating over variable j
+-
+-            if (ellipsis && item.start - offset > lastIndex) {
+-                resultArray.push(`${replaceHTMLEnt(str.substring(lastIndex, lastIndex + offset))} [...] `);
+-                resultArray.push(`${replaceHTMLEnt(str.substring(item.start - offset, item.start))}`);
+-                charCount += offset * 2;
+-            }
+-            else {
+-                /// If the match is too close to the end of last match, don't add ellipsis
+-                resultArray.push(replaceHTMLEnt(str.substring(lastIndex, item.start)));
+-                charCount += item.start - lastIndex;
+-            }
++    private async searchKeywords(keywords: string[]) {
++        const rawData = await this.getData();
++        let results: pageData[] = [];
+ 
+-            let j = i + 1,
+-                end = item.end;
++        /// Sort keywords by their length
++        keywords.sort((a, b) => {
++            return b.length - a.length
++        });
+ 
+-            /// Include as many matches as possible
+-            /// [item.start, end] is the range of the match
+-            while (j < matches.length && matches[j].start <= end) {
+-                end = Math.max(matches[j].end, end);
+-                ++j;
++        for (const item of rawData) {
++            let result = {
++                ...item,
++                preview: '',
++                matchCount: 0
+             }
+ 
+-            resultArray.push(`<mark>${replaceHTMLEnt(str.substring(item.start, end))}</mark>`);
+-            charCount += end - item.start;
+-
+-            i = j;
+-            lastIndex = end;
++            let matched = false;
+ 
+-            if (ellipsis && charCount > charLimit) break;
+-        }
++            for (const keyword of keywords) {
++                if (keyword === '') continue;
+ 
+-        /// Add the rest of the string
+-        if (lastIndex < str.length) {
+-            let end = str.length;
+-            if (ellipsis) end = Math.min(end, lastIndex + offset);
++                const regex = new RegExp(escapeRegExp(replaceHTMLEnt(keyword)), 'gi');
+ 
+-            resultArray.push(`${replaceHTMLEnt(str.substring(lastIndex, end))}`);
++                const contentMatch = regex.exec(result.content);
++                regex.lastIndex = 0;            /// Reset regex
+ 
+-            if (ellipsis && end != str.length) {
+-                resultArray.push(` [...]`);
+-            }
+-        }
++                const titleMatch = regex.exec(result.title);
++                regex.lastIndex = 0;            /// Reset regex
+ 
+-        return resultArray.join('');
++                if (titleMatch) {
++                    result.title = result.title.replace(regex, Search.marker);
+     }
+ 
+-    private async searchKeywords(keywords: string[]) {
+-        const rawData = await this.getData();
+-        const results: pageData[] = [];
++                if (titleMatch || contentMatch) {
++                    matched = true;
++                    ++result.matchCount;
+ 
+-        const regex = new RegExp(keywords.filter((v, index, arr) => {
+-            arr[index] = escapeRegExp(v);
+-            return v.trim() !== '';
+-        }).join('|'), 'gi');
++                    let start = 0,
++                        end = 100;
+ 
+-        for (const item of rawData) {
+-            const titleMatches: match[] = [],
+-                contentMatches: match[] = [];
++                    if (contentMatch) {
++                        start = contentMatch.index - 20;
++                        end = contentMatch.index + 80
+ 
+-            let result = {
+-                ...item,
+-                preview: '',
+-                matchCount: 0
++                        if (start < 0) start = 0;
+             }
+ 
+-            const contentMatchAll = item.content.matchAll(regex);
+-            for (const match of Array.from(contentMatchAll)) {
+-                contentMatches.push({
+-                    start: match.index,
+-                    end: match.index + match[0].length
+-                });
++                    if (result.preview.indexOf(keyword) !== -1) {
++                        result.preview = result.preview.replace(regex, Search.marker);
+             }
+-
+-            const titleMatchAll = item.title.matchAll(regex);
+-            for (const match of Array.from(titleMatchAll)) {
+-                titleMatches.push({
+-                    start: match.index,
+-                    end: match.index + match[0].length
+-                });
++                    else {
++                        if (start !== 0) result.preview += `[...] `;
++                        result.preview += `${result.content.slice(start, end).replace(regex, Search.marker)} `;
+             }
+-
+-            if (titleMatches.length > 0) result.title = Search.processMatches(result.title, titleMatches, false);
+-            if (contentMatches.length > 0) {
+-                result.preview = Search.processMatches(result.content, contentMatches);
+             }
+-            else {
+-                /// If there are no matches in the content, use the first 140 characters as preview
+-                result.preview = replaceHTMLEnt(result.content.substring(0, 140));
+             }
+ 
+-            result.matchCount = titleMatches.length + contentMatches.length;
+-            if (result.matchCount > 0) results.push(result);
++            if (matched) {
++                result.preview += '[...]';
++                results.push(result);
++            }
+         }
+ 
+-        /// Result with more matches appears first
++        /** Result with more matches appears first */
+         return results.sort((a, b) => {
+             return b.matchCount - a.matchCount;
+         });
+     }
+ 
++    public static marker(match) {
++        return '<mark>' + match + '</mark>';
++    }
++
+     private async doSearch(keywords: string[]) {
+         const startTime = performance.now();
+ 
+@@ -207,11 +150,6 @@
+             /// Not fetched yet
+             const jsonURL = this.form.dataset.json;
+             this.data = await fetch(jsonURL).then(res => res.json());
+-            const parser = new DOMParser();
+-
+-            for (const item of this.data) {
+-                item.content = parser.parseFromString(item.content, 'text/html').body.innerText;
+-            }
+         }
+ 
+         return this.data;
+@@ -222,7 +160,7 @@
+ 
+         const eventHandler = (e) => {
+             e.preventDefault();
+-            const keywords = this.input.value.trim();
++            const keywords = this.input.value;
+ 
+             Search.updateQueryString(keywords, true);
+ 
+@@ -287,7 +225,7 @@
+             <a href={item.permalink}>
+                 <div class="article-details">
+                     <h2 class="article-title" dangerouslySetInnerHTML={{ __html: item.title }}></h2>
+-                    <section class="article-preview" dangerouslySetInnerHTML={{ __html: item.preview }}></section>
++                    <secion class="article-preview" dangerouslySetInnerHTML={{ __html: item.preview }}></secion>
+                 </div>
+                 {item.image &&
+                     <div class="article-image">
+Only in themes/hugo-theme-stack/assets/ts: smoothAnchors.ts
+diff -bur themes/hugo-theme-stack/data/external.yaml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/data/external.yaml
+--- themes/hugo-theme-stack/data/external.yaml	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/data/external.yaml	2022-05-06 01:04:28.767212709 +0700
+@@ -36,11 +36,3 @@
+       integrity: sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl
+       type: script
+       defer: true
+-
+-Cactus:
+-    - src: https://latest.cactus.chat/cactus.js
+-      integrity:
+-      type: script
+-    - src: https://latest.cactus.chat/style.css
+-      integrity:
+-      type: style
+Only in themes/hugo-theme-stack/: debug.sh
+Only in themes/hugo-theme-stack/: .devcontainer
+Only in themes/hugo-theme-stack/: .git
+diff -bur themes/hugo-theme-stack/.github/FUNDING.yml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/.github/FUNDING.yml
+--- themes/hugo-theme-stack/.github/FUNDING.yml	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/.github/FUNDING.yml	2022-05-06 01:04:28.767212709 +0700
+@@ -1,2 +1 @@
+ ko_fi: jimmycai
+-github: CaiJimmy
+Only in themes/hugo-theme-stack/: .gitignore
+Only in themes/hugo-theme-stack/: go.mod
+Only in themes/hugo-theme-stack/i18n: ar.yaml
+Only in themes/hugo-theme-stack/i18n: ca.yaml
+Only in themes/hugo-theme-stack/i18n: el.yaml
+diff -bur themes/hugo-theme-stack/i18n/es.yaml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/es.yaml
+--- themes/hugo-theme-stack/i18n/es.yaml	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/es.yaml	2022-05-06 01:04:28.767212709 +0700
+@@ -51,9 +51,6 @@
+     tagCloud:
+         title:
+             other: Etiquetas
+-    categoriesCloud:
+-        title:
+-            other: Categorías
+ 
+ search:
+     title:
+diff -bur themes/hugo-theme-stack/i18n/fr.yaml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/fr.yaml
+--- themes/hugo-theme-stack/i18n/fr.yaml	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/fr.yaml	2022-05-06 01:04:28.767212709 +0700
+@@ -29,10 +29,6 @@
+     lastUpdatedOn:
+         other: Dernière mise à jour le
+ 
+-    readingTime:
+-        one: "{{ .Count }} minute de lecture"
+-        other: "{{ .Count }} minutes de lecture"
+-
+ notFound:
+     title:
+         other: Page non trouvée
+diff -bur themes/hugo-theme-stack/i18n/id.yaml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/id.yaml
+--- themes/hugo-theme-stack/i18n/id.yaml	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/id.yaml	2022-05-06 01:04:28.767212709 +0700
+@@ -51,10 +51,6 @@
+         title:
+             other: Tag
+ 
+-    categoriesCloud:
+-        title:
+-            other: Kategori
+-
+ search:
+     title:
+         other: Cari
+diff -bur themes/hugo-theme-stack/i18n/ja.yaml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/ja.yaml
+--- themes/hugo-theme-stack/i18n/ja.yaml	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/ja.yaml	2022-05-06 01:04:28.767212709 +0700
+@@ -38,10 +38,6 @@
+         title:
+             other: タグ
+ 
+-    categoriesCloud:
+-        title:
+-            other: カテゴリ
+-
+ search:
+     title:
+         other: 検索
+@@ -51,10 +47,3 @@
+ 
+     resultTitle:
+         other: "#PAGES_COUNT 件 （#TIME_SECONDS 秒）"
+-
+-footer:
+-    builtWith:
+-        other: Built with {{ .Generator }}
+-
+-    designedBy:
+-        other: テーマ {{ .Theme }} は {{ .DesignedBy }} によって設計されています。
+diff -bur themes/hugo-theme-stack/i18n/ko.yaml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/ko.yaml
+--- themes/hugo-theme-stack/i18n/ko.yaml	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/ko.yaml	2022-05-06 01:04:28.767212709 +0700
+@@ -1,42 +1,15 @@
+ toggleMenu:
+     other: 메뉴 여닫기
+ 
+-darkMode:
+-    other: 다크 모드
+-
+-list:
+-    page:
+-        one: "{{ .Count }} 페이지"
+-        other: "{{ .Count }} 페이지"
+-
+-    section:
+-        other: 섹션
+-
+-    subsection:
+-        one: 서브섹션
+-        other: 서브섹션
+-
+ article:
+-    back:
+-        other: 뒤로가기
+-
+-    tableOfContents:
+-        other: 목차
+-        
+     relatedContents:
+         other: 관련 글
+-        
+     lastUpdatedOn:
+         other: "마지막 수정: "
+         
+-    readingTime:
+-        one: "{{ .Count }} 분 정도"
+-        other: "{{ .Count }} 분 정도"
+-
+ notFound:
+     title:
+         other: 찾을 수 없음
+-        
+     subtitle:
+         other: 페이지를 찾을 수 없습니다.
+ 
+@@ -46,7 +19,6 @@
+             other: 보관함
+         more:
+             other: 더보기
+-            
+     tagCloud:
+         title:
+             other: 태그
+@@ -54,10 +26,8 @@
+ search:
+     title:
+         other: 검색
+-        
+     placeholder:
+         other: 검색어를 입력하세요...
+-        
+     resultTitle:
+         other: "#PAGES_COUNT 페이지 (#TIME_SECONDS 초)"
+ 
+diff -bur themes/hugo-theme-stack/i18n/pl.yaml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/pl.yaml
+--- themes/hugo-theme-stack/i18n/pl.yaml	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n/pl.yaml	2022-05-06 01:04:28.767212709 +0700
+@@ -51,10 +51,6 @@
+         title:
+             other: Tagi
+     
+-    categoriesCloud:
+-        title:
+-            other: Kategorie
+-
+ search:
+     title:
+         other: Szukaj
+Only in themes/hugo-theme-stack/i18n: pt-br.yaml
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n: pt-BR.yaml
+Only in themes/hugo-theme-stack/i18n: th.yaml
+Only in themes/hugo-theme-stack/i18n: uk.yaml
+Only in themes/hugo-theme-stack/i18n: zh-cn.yaml
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/i18n: zh-CN.yaml
+Only in themes/hugo-theme-stack/i18n: zh-hk.yaml
+Only in themes/hugo-theme-stack/i18n: zh-tw.yaml
+Only in themes/hugo-theme-stack/: images
+Only in themes/hugo-theme-stack/layouts/_default: archives.html
+diff -bur themes/hugo-theme-stack/layouts/_default/baseof.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/baseof.html
+--- themes/hugo-theme-stack/layouts/_default/baseof.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/baseof.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,20 +1,12 @@
+ <!DOCTYPE html>
+-<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
++<html lang="{{ .Site.LanguageCode }}">
+     <head>
+         {{- partial "head/head.html" . -}}
+         {{- block "head" . -}}{{ end }}
+     </head>
+     <body class="{{ block `body-class` . }}{{ end }}">
+         {{- partial "head/colorScheme" . -}}
+-
+-        {{/* The container is wider when there's any activated widget */}}
+-        {{- $hasWidget := false -}}
+-        {{- range .Site.Params.widgets -}}
+-            {{- if gt (len .) 0 -}}
+-                {{- $hasWidget = true -}}
+-            {{- end -}}
+-        {{- end -}}
+-        <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
++        <div class="container main-container flex {{ block `container-class` . }}on-phone--column {{ if .Site.Params.widgets.enabled }}extended{{ else }}compact{{ end }}{{ end }}">
+             {{- block "left-sidebar" . -}}
+                 {{ partial "sidebar/left.html" . }}
+             {{- end -}}
+diff -bur themes/hugo-theme-stack/layouts/_default/list.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/list.html
+--- themes/hugo-theme-stack/layouts/_default/list.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/list.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,5 +1,4 @@
+ {{ define "main" }}
+-    <header>
+         <h3 class="section-title">
+             {{ if eq .Parent (.GetPage "/") }}
+                 {{ T "list.section" }}
+@@ -42,7 +41,6 @@
+                 </div>
+             {{ end }}
+         </div>
+-    </header>
+ 
+     {{- $subsections := .Sections -}}
+     {{- $pages := .Pages | complement $subsections -}}
+@@ -52,10 +50,25 @@
+         {{/* This happens with taxonomies like categories or tags */}}
+         {{- $pages = $subsections -}}
+         {{- $subsections = slice -}}
++        {{ $paginator := .Paginate $pages }}
++        <section class="article-list--compact">
++            {{ range $paginator.Pages }}
++                {{ partial "article-list/compact" . }}
++            {{ end }}
++    </section>
++    {{- else -}}
++        {{ $paginator := .Paginate $pages }}
++        <section class="article-list">
++            {{ range $paginator.Pages }}
++                {{ partial "article-list/default" . }}
++            
++            {{ end }}
++        </section>
+     {{- end -}}
+ 
+     {{- with $subsections -}}
+-        <aside>
++    {{ $subsections }}
++    {{ $pages }}
+             <h2 class="section-title">{{ T "list.subsection" (len $subsections) }}</h2>
+             <div class="subsection-list">
+                 <div class="article-list--tile">
+@@ -64,22 +77,13 @@
+                     {{ end }}
+                 </div>
+             </div>
+-        </aside>
+     {{- end -}}
+     
+-    {{/* List only pages that are not a subsection */}}
+-    {{ $paginator := .Paginate $pages }}
+-    <section class="article-list--compact">
+-        {{ range $paginator.Pages }}
+-            {{ partial "article-list/compact" . }}
+-        {{ end }}
+-    </section>
+-
+     {{- partial "pagination.html" . -}}
+ 
+     {{ partialCached "footer/footer" . }}
+ {{ end }}
+ 
+ {{ define "right-sidebar" }}
+-    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
++    {{ partialCached "sidebar/right.html" . }}
+ {{ end }}
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/layouts/_default/_markup/render-image.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/_markup/render-image.html
+--- themes/hugo-theme-stack/layouts/_default/_markup/render-image.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/_markup/render-image.html	2022-05-06 01:04:28.767212709 +0700
+@@ -25,17 +25,22 @@
+ 	{{- end -}}
+ {{- end -}}
+ 
+-<img src="{{ $Permalink }}"
++<figure 
++	{{ if $galleryImage }}
++		class="gallery-image" 
++		style="
++			flex-grow: {{ div (mul $image.Width 100) $image.Height }}; 
++			flex-basis: {{ div (mul $image.Width 240) $image.Height }}px"
++	{{ end }}>
++	<a href="{{ $Permalink }}" {{ if $galleryImage }}data-size="{{ $image.Width }}x{{ $image.Height }}"{{ end }}>
++		<img src="{{ $Permalink }}"
+ 	{{ with $Width }}width="{{ . }}"{{ end }}
+ 	{{ with $Height }}height="{{ . }}"{{ end }}
+ 	{{ with $Srcset }}srcset="{{ . }}"{{ end }}
+ 	loading="lazy"
++			{{ with $alt }}alt="{{ . }}"{{ end }}>
++	</a>
+ 	{{ with $alt }}
+-		alt="{{ . }}"
+-	{{ end }}
+-	{{ if $galleryImage }}
+-		class="gallery-image" 
+-		data-flex-grow="{{ div (mul $image.Width 100) $image.Height }}"
+-		data-flex-basis="{{ div (mul $image.Width 240) $image.Height }}px"
++	<figcaption>{{ . | markdownify }}</figcaption>
+ 	{{ end }}
+->
+\ No newline at end of file
++</figure>
+\ No newline at end of file
+Only in themes/hugo-theme-stack/layouts/_default: rss.xml
+diff -bur themes/hugo-theme-stack/layouts/_default/single.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/single.html
+--- themes/hugo-theme-stack/layouts/_default/single.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/_default/single.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,38 +1,23 @@
+ {{ define "body-class" }}
+-    article-page
+-    {{/* 
+-        Enable the right sidebar if
+-            - Widget different from 'TOC' is enabled
+-            - TOC is enabled and not empty
+-    */}}
+-    {{- $HasWidgetNotTOC := false -}}
+-    {{- $TOCWidgetEnabled := false -}}
+-    {{- range .Site.Params.widgets.page -}}
+-        {{- if ne .type "toc" -}}
+-            {{ $HasWidgetNotTOC = true -}}
+-        {{- else -}}
+-            {{ $TOCWidgetEnabled = true -}}
+-        {{- end -}}
+-    {{- end -}}
+-
+-    {{- $TOCManuallyDisabled := eq .Params.toc false -}}
+-    {{- $TOCEnabled := and (not $TOCManuallyDisabled) $TOCWidgetEnabled -}}
+-    {{- $hasTOC := ge (len .TableOfContents) 100 -}}
+-    {{- .Scratch.Set "TOCEnabled" (and $TOCEnabled $hasTOC) -}}
++    {{ $TOCEnabled := default (default false .Site.Params.article.toc) .Params.toc }}
++    {{- .Scratch.Set "hasTOC" (and (ge (len .TableOfContents) 100) $TOCEnabled) -}}
++    article-page {{ if (.Scratch.Get "hasTOC") }}has-toc{{ end }}
++{{ end }}
+     
+-    {{- .Scratch.Set "hasWidget" (or $HasWidgetNotTOC (and $TOCEnabled $hasTOC)) -}}
++{{ define "container-class" }}
++    {{ if (.Scratch.Get "hasTOC") }}
++        extended
++    {{ else }}
++        on-phone--column {{ if .Site.Params.widgets.enabled }}extended{{ else }}compact{{ end }}
++    {{ end }}
+ {{ end }}
+ 
+ {{ define "main" }}
+     {{ partial "article/article.html" . }}
+ 
+-    {{ if .Params.links }}
+-        {{ partial "article/components/links" . }}
+-    {{ end }}
+-
+     {{ partial "article/components/related-contents" . }}
+      
+-    {{ if not (eq .Params.comments false) }}
++    {{ if or (not (isset .Params "comments")) (eq .Params.comments "true")}} 
+         {{ partial "comments/include" . }}
+     {{ end }}
+ 
+@@ -41,6 +26,42 @@
+     {{ partialCached "article/components/photoswipe" . }}
+ {{ end }}
+ 
++{{ define "left-sidebar" }}
++    {{ if (.Scratch.Get "hasTOC") }}
++        <div id="article-toolbar">
++            <a href="{{ .Site.BaseURL }}" class="back-home">
++                {{ (resources.Get "icons/back.svg").Content | safeHTML }}
++                <span>{{ T "article.back" }}</span>
++            </a>
++        </div>
++    {{ else }}
++        {{ partial "sidebar/left.html" . }}
++    {{ end }}
++{{ end }}
++
+ {{ define "right-sidebar" }}
+-    {{ if .Scratch.Get "hasWidget" }}{{ partial "sidebar/right.html" (dict "Context" . "Scope" "page") }}{{ end}}
++    {{ if (.Scratch.Get "hasTOC") }}
++        <aside class="sidebar right-sidebar sticky">
++            <section class="widget archives">
++                <div class="widget-icon">
++                    {{ partial "helper/icon" "hash" }}
++                </div>
++                <h2 class="widget-title section-title">{{ T "article.tableOfContents" }}</h2>
++                
++                <div class="widget--toc">
++                    {{ .TableOfContents }}
++                </div>
++            </section>
++
++            <section class="widget archives">
++                {{ partial "socialShare.html" . }}
++            </section>
++        </aside>
++    {{ else }}
++        <aside class="sidebar right-sidebar sticky">
++            <section class="widget archives">
++                {{ partial "socialShare.html" . }}
++            </section>
++        </aside>
++    {{ end }}
+ {{ end }}
+diff -bur themes/hugo-theme-stack/layouts/index.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/index.html
+--- themes/hugo-theme-stack/layouts/index.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/index.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,4 +1,17 @@
+ {{ define "main" }}
++    {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "categories" -}}
++    {{- $terms := $taxonomy.Pages -}}
++    {{ if $terms }}
++        <h2 class="section-title">{{ $taxonomy.Title }}</h2>
++        <div class="subsection-list">
++            <div class="article-list--tile">
++                {{ range $terms }}
++                    {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "taxonomy") }}
++                {{ end }}
++            </div>
++        </div>
++    {{ end }}
++    
+     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
+     {{ $filtered := ($pages | intersect $notHidden) }}
+@@ -15,5 +28,5 @@
+ {{ end }}
+ 
+ {{ define "right-sidebar" }}
+-    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
++    {{ partial "sidebar/right.html" . }}
+ {{ end }}
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/layouts/page/search.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/page/search.html
+--- themes/hugo-theme-stack/layouts/page/search.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/page/search.html	2022-05-06 01:04:28.767212709 +0700
+@@ -16,10 +16,8 @@
+     </button>
+ </form>
+ 
+-<div class="search-result">
+-    <h3 class="search-result--title section-title"></h3>
+-    <div class="search-result--list article-list--compact"></div>
+-</div>
++<h3 class="search-result--title section-title"></h3>
++<div class="search-result--list article-list--compact"></div>
+ 
+ <script>
+     window.searchResultTitleTemplate = "{{ T `search.resultTitle` }}"
+diff -bur themes/hugo-theme-stack/layouts/partials/article/components/content.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/content.html
+--- themes/hugo-theme-stack/layouts/partials/article/components/content.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/content.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,5 +1,3 @@
+ <section class="article-content">
+-    <!-- Refer to https://discourse.gohugo.io/t/responsive-tables-in-markdown/10639/5 -->
+-    {{ $wrappedTable := printf "<div class=\"table-wrapper\">${1}</div>" }}
+-    {{ .Content | replaceRE "(<table>(?:.|\n)+?</table>)" $wrappedTable | safeHTML }}
++    {{ .Content }}
+ </section>
+diff -bur themes/hugo-theme-stack/layouts/partials/article/components/details.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/details.html
+--- themes/hugo-theme-stack/layouts/partials/article/components/details.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/details.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,7 +1,7 @@
+ <div class="article-details">
+-    {{ if .Params.categories }}
+-    <header class="article-category">
+-        {{ range (.GetTerms "categories") }}
++    {{ if .Params.tags }}
++    <header class="article-tags">
++        {{ range (.GetTerms "tags") }}
+             <a href="{{ .RelPermalink }}" {{ with .Params.style }}style="background-color: {{ .background }}; color: {{ .color }};"{{ end }}>
+                 {{ .LinkTitle }}
+             </a>
+@@ -9,7 +9,6 @@
+     </header>
+     {{ end }}
+ 
+-    <div class="article-title-wrapper">
+         <h2 class="article-title">
+             <a href="{{ .RelPermalink }}">
+                 {{- .Title -}}
+@@ -21,7 +20,6 @@
+             {{ . }}
+         </h3>
+         {{ end }}
+-    </div>
+ 
+     {{ if or (not .Date.IsZero) (.Site.Params.article.readingTime) }}
+     <footer class="article-time">
+@@ -44,15 +42,4 @@
+         {{ end }}
+     </footer>
+     {{ end }}
+-
+-    {{ if .IsTranslated }}
+-        <footer class="article-translations">
+-            {{ partial "helper/icon" "language" }}
+-            <div>
+-                {{ range .Translations }}
+-                    <a href="{{ .Permalink }}" class="link">{{ .Language.LanguageName }}</a>
+-                {{ end }}
+-            </div>
+-        </footer>
+-    {{ end }}
+ </div>
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/layouts/partials/article/components/footer.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/footer.html
+--- themes/hugo-theme-stack/layouts/partials/article/components/footer.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/footer.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,5 +1,4 @@
+ <footer class="article-footer">
+-    {{ partial "article/components/tags" . }}
+ 
+     {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
+     <section class="article-copyright">
+@@ -16,4 +15,13 @@
+         </span>
+     </section>
+     {{- end -}}
++
++    {{- if .Author -}}
++    <section class="article-author">
++        {{ partial "helper/icon" "user" }}
++        <span>
++            {{ "Written with ❤️ by "}} {{ .Params.author }}
++        </span>
++    </section>
++    {{- end -}}
+ </footer>
+Only in themes/hugo-theme-stack/layouts/partials/article/components: links.html
+diff -bur themes/hugo-theme-stack/layouts/partials/article/components/related-contents.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/related-contents.html
+--- themes/hugo-theme-stack/layouts/partials/article/components/related-contents.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article/components/related-contents.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,6 +1,6 @@
+-{{ $related := (where (.Site.RegularPages.Related .) "Params.hidden" "!=" true) | first 5 }}
+-{{ with $related }}
+ <aside class="related-contents--wrapper">
++    {{ $related := (where (.Site.RegularPages.Related .) "Params.hidden" "!=" true) | first 5 }}
++    {{ with $related }}
+     <h2 class="section-title">{{ T "article.relatedContents" }}</h2>
+     <div class="related-contents">
+         <div class="flex article-list--tile">
+@@ -9,5 +9,5 @@
+             {{ end }}
+         </div>
+     </div>
++    {{ end }}
+ </aside>
+-{{ end }}
+\ No newline at end of file
+Only in themes/hugo-theme-stack/layouts/partials/article/components: tags.html
+diff -bur themes/hugo-theme-stack/layouts/partials/article-list/compact.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article-list/compact.html
+--- themes/hugo-theme-stack/layouts/partials/article-list/compact.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article-list/compact.html	2022-05-06 01:04:28.767212709 +0700
+@@ -29,7 +29,6 @@
+                     <img src="{{ $Permalink }}" 
+                         width="{{ $Width }}"
+                         height="{{ $Height }}" 
+-                        alt="{{ .Title }}"
+                         loading="lazy">
+                 {{ else }}
+                     <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
+diff -bur themes/hugo-theme-stack/layouts/partials/article-list/tile.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article-list/tile.html
+--- themes/hugo-theme-stack/layouts/partials/article-list/tile.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/article-list/tile.html	2022-05-06 01:04:28.767212709 +0700
+@@ -21,8 +21,7 @@
+                         width="{{ $Width }}" 
+                         height="{{ $Height }}" 
+                         loading="lazy"
+-                        alt="Featured image of post {{ .context.Title }}"
+-                        {{ with .context.Slug }}data-key="{{ . }}" {{ end }}
++                        data-key="{{ .context.Slug }}" 
+                         data-hash="{{ $imageRaw.Data.Integrity }}">
+                 {{ else }}
+                     <img src="{{ $image.permalink }}" loading="lazy" data-key="{{ .context.Slug }}" data-hash="{{ $image.permalink }}"/>
+Only in themes/hugo-theme-stack/layouts/partials/comments/provider: cactus.html
+Only in themes/hugo-theme-stack/layouts/partials/comments/provider: cusdis.html
+diff -bur themes/hugo-theme-stack/layouts/partials/comments/provider/giscus.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/comments/provider/giscus.html
+--- themes/hugo-theme-stack/layouts/partials/comments/provider/giscus.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/comments/provider/giscus.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,5 +1,15 @@
+-{{- with .Site.Params.comments.giscus -}}
+-<script
++<div id="giscus" class="giscus-container">
++    <style>
++        .giscus-container {
++            background-color: var(--card-background);
++            border-radius: var(--card-border-radius);
++            box-shadow: var(--shadow-l1);
++            padding: var(--card-padding);
++        }
++    </style>
++    
++    {{- with .Site.Params.comments.giscus -}}
++    <script
+     src="https://giscus.app/client.js"
+     data-repo="{{- .repo -}}"
+     data-repo-id="{{- .repoID -}}"
+@@ -9,41 +19,42 @@
+     data-reactions-enabled="{{- default 1 .reactionsEnabled -}}"
+     data-emit-metadata="{{- default 0 .emitMetadata -}}"
+     data-theme="{{- default `light` .lightTheme -}}"
+-    data-lang="{{- default `en` .lang -}}"
+     crossorigin="anonymous"
+     async
+-></script>
+-<script>
++    ></script>
++
++    <script>
+     function setGiscusTheme(theme) {
+-        let giscus = document.querySelector("iframe.giscus-frame");
++            let giscus = document.querySelector('iframe.giscus-frame');
+         if (giscus) {
+             giscus.contentWindow.postMessage(
+                 {
+                     giscus: {
+                         setConfig: {
+-                            theme: theme,
+-                        },
+-                    },
++                                theme: theme 
++                            }
++                        }
+                 },
+                 "https://giscus.app"
+             );
+-        }
+-    }
++            };
++        };
+ 
+-    (function () {
+-        addEventListener("message", (e) => {
+-            if (event.origin !== "https://giscus.app") return;
+-            handler();
++        (function(){
++            addEventListener('message', (e) => {
++                if (event.origin !== 'https://giscus.app') return;
++                handler()
+         });
+-        window.addEventListener("onColorSchemeChange", handler);
++            window.addEventListener('onColorSchemeChange', handler);
+ 
+         function handler() {
+             if (document.documentElement.dataset.scheme === "light") {
+                 setGiscusTheme('{{- default "light" .lightTheme -}}');
+             } else {
+                 setGiscusTheme('{{- default "dark_dimmed" .darkTheme -}}');
+-            }
+-        }
+-    })();
+-</script>
+-{{- end -}}
++                };
++            };
++        }());
++    </script>
++    {{- end -}}
++</div>
+\ No newline at end of file
+Only in themes/hugo-theme-stack/layouts/partials/comments/provider: gitalk.html
+diff -bur themes/hugo-theme-stack/layouts/partials/comments/provider/twikoo.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/comments/provider/twikoo.html
+--- themes/hugo-theme-stack/layouts/partials/comments/provider/twikoo.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/comments/provider/twikoo.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,4 +1,4 @@
+-<script src="//cdn.jsdelivr.net/npm/twikoo@1.4.18/dist/twikoo.all.min.js"></script>
++<script src="//cdn.jsdelivr.net/npm/twikoo@1.4.3/dist/twikoo.all.min.js"></script>
+ <div id="tcomment"></div>
+ <style>
+     .twikoo {
+diff -bur themes/hugo-theme-stack/layouts/partials/comments/provider/vssue.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/comments/provider/vssue.html
+--- themes/hugo-theme-stack/layouts/partials/comments/provider/vssue.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/comments/provider/vssue.html	2022-05-06 01:04:28.767212709 +0700
+@@ -3,7 +3,7 @@
+ 
+ <div id="vssue"></div>
+ 
+-<script src="https://unpkg.com/vue@2/dist/vue.runtime.min.js"></script>
++<script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
+ <script src="https://unpkg.com/vssue/dist/vssue.{{ .platform }}.min.js"></script>
+ 
+ <script>
+diff -bur themes/hugo-theme-stack/layouts/partials/footer/components/script.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/footer/components/script.html
+--- themes/hugo-theme-stack/layouts/partials/footer/components/script.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/footer/components/script.html	2022-05-06 01:04:28.767212709 +0700
+@@ -4,9 +4,3 @@
+ {{- $script := resources.Get "ts/main.ts" | js.Build $opts -}}
+ 
+ <script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script>
+-
+-{{- with resources.Get "ts/custom.ts" -}}
+-    {{/* Place your custom script in HUGO_SITE_FOLDER/assets/ts/custom.ts */}}
+-    {{- $customScript := . | js.Build $opts -}}
+-    <script type="text/javascript" src="{{ $customScript.RelPermalink }}" defer></script>
+-{{- end -}}
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/layouts/partials/footer/footer.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/footer/footer.html
+--- themes/hugo-theme-stack/layouts/partials/footer/footer.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/footer/footer.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,4 +1,4 @@
+-{{- $ThemeVersion := "3.11.0" -}}
++{{- $ThemeVersion := "3.2.0" -}}
+ <footer class="site-footer">
+     <section class="copyright">
+         &copy; 
+diff -bur themes/hugo-theme-stack/layouts/partials/head/head.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/head/head.html
+--- themes/hugo-theme-stack/layouts/partials/head/head.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/head/head.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,9 +1,8 @@
+ <meta charset='utf-8'>
+-<meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
++<meta name='viewport' content='width=device-width, initial-scale=1'>
+ {{- $description := partialCached "data/description" . .RelPermalink -}}
+ <meta name='description' content='{{ $description }}'>
+-
+ {{- $title := partialCached "data/title" . .RelPermalink -}}
+ <title>{{ $title }}</title>
+ 
+diff -bur themes/hugo-theme-stack/layouts/partials/head/style.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/head/style.html
+--- themes/hugo-theme-stack/layouts/partials/head/style.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/head/style.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,3 +1,3 @@
+ {{ $sass := resources.Get "scss/style.scss" }}
+-{{ $style := $sass | resources.ToCSS | minify | resources.Fingerprint "sha256" }}
++{{ $style := $sass | resources.ToCSS | minify }}
+ <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+\ No newline at end of file
+diff -bur themes/hugo-theme-stack/layouts/partials/helper/external.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/helper/external.html
+--- themes/hugo-theme-stack/layouts/partials/helper/external.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/helper/external.html	2022-05-06 01:04:28.767212709 +0700
+@@ -8,7 +8,7 @@
+                 integrity="{{ . }}"
+                 {{- end -}}
+                 crossorigin="anonymous"
+-                {{ if .defer }}defer{{ end }}
++                defer="{{ default false .defer }}"
+                 >
+             </script>
+         {{- else if eq .type "style" -}}
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials: logo.html
+diff -bur themes/hugo-theme-stack/layouts/partials/sidebar/left.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/sidebar/left.html
+--- themes/hugo-theme-stack/layouts/partials/sidebar/left.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/sidebar/left.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,15 +1,14 @@
+-<aside class="sidebar left-sidebar sticky {{ if .Site.Params.sidebar.compact }}compact{{ end }}">
++<aside class="sidebar left-sidebar sticky">
+     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="{{ T `toggleMenu` }}">
+         <span class="hamburger-box">
+             <span class="hamburger-inner"></span>
+         </span>
+     </button>
+ 
+-    <header>
++    <header class="site-info">
+         {{ with .Site.Params.sidebar.avatar }}
+             {{ if (default true .enabled) }}
+             <figure class="site-avatar">
+-                <a href="{{ .Site.BaseURL | relLangURL }}">
+                 {{ if not .local }}
+                     <img src="{{ .src }}" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                 {{ else }}
+@@ -23,78 +22,39 @@
+                         {{ errorf "Failed loading avatar from %q" . }}
+                     {{ end }}
+                 {{ end }}
+-                </a>
++
+                 {{ with $.Site.Params.sidebar.emoji }}
+                     <span class="emoji">{{ . }}</span>
+                 {{ end }}
+             </figure>
+             {{ end }}
+         {{ end }}
+-        
+-        <div class="site-meta">
+-            <h1 class="site-name"><a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a></h1>
++        <h1 class="site-name"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+             <h2 class="site-description">{{ .Site.Params.sidebar.subtitle }}</h2>
+-        </div>
+     </header>
+ 
+-    {{- with .Site.Menus.social -}}
+-        <ol class="social-menu">
+-            {{ range . }}
+-                <li>
+-                    <a 
+-                        href='{{ .URL }}'
+-                        {{ if eq (default true .Params.newTab) true }}target="_blank"{{ end }}
+-                        {{ with .Name }}title="{{ . }}"{{ end }}
+-                    >
+-                        {{ $icon := default "link" .Params.Icon }}
+-                        {{ with $icon }}
+-                            {{ partial "helper/icon" . }}
+-                        {{ end }}
+-                    </a>
+-                </li>
+-            {{ end }}
+-        </ol>
+-    {{- end -}}
+-
+     <ol class="menu" id="main-menu">
+         {{ $currentPage := . }}
+         {{ range .Site.Menus.main }}
+         {{ $active := or (eq $currentPage.Title .Name) (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
+ 
+         <li {{ if $active }} class='current' {{ end }}>
+-            <a href='{{ .URL | relLangURL }}' {{ if eq .Params.newTab true }}target="_blank"{{ end }}>
+-                {{ $icon := default .Pre .Params.Icon }}
++            <a href='{{ .URL }}' {{ if eq .Params.newTab true }}target="_blank"{{ end }}>
+                 {{ if .Pre }}
+-                    {{ warnf "Menu item [%s] is using [pre] field to set icon, please use [params.icon] instead.\nMore information: https://docs.stack.jimmycai.com/configuration/custom-menu.html" .URL }}
+-                {{ end }}
+-                {{ with $icon }}
+-                    {{ partial "helper/icon" . }}
++                    {{ partial "helper/icon" .Pre }}
+                 {{ end }}
+                 <span>{{- .Name -}}</span>
+             </a>
+         </li>
+         {{ end }}
+ 
+-        <div class="menu-bottom-section">
+-            {{- $currentLanguageCode := .Language.Lang -}}
+-            {{ with .Site.Home.AllTranslations }}
+-                <li id="i18n-switch">  
+-                    {{ partial "helper/icon" "language" }}
+-                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+-                        {{ range . }}
+-                            <option value="{{ .Permalink }}" {{ if eq .Language.Lang $currentLanguageCode }}selected{{ end }}>{{ .Language.LanguageName }}</option>
+-                        {{ end }}
+-                    </select>
+-                </li>
+-            {{ end }}
+-            
+             {{ if (default false .Site.Params.colorScheme.toggle) }}
+                 <li id="dark-mode-toggle">
+                     {{ partial "helper/icon" "toggle-left" }}
+                     {{ partial "helper/icon" "toggle-right" }}
+-                    <span>{{ T "darkMode" }}</span>
++                <span class="theme-dark"> {{ T "theme.dark" }} </span>
++                <span class="theme-light"> {{ T "theme.light" }} </span>
+                 </li>
+             {{ end }}
+-        </div>
+     </ol>
+ </aside>
+diff -bur themes/hugo-theme-stack/layouts/partials/sidebar/right.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/sidebar/right.html
+--- themes/hugo-theme-stack/layouts/partials/sidebar/right.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/sidebar/right.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,13 +1,8 @@
+-{{- $scope := default "homepage" .Scope -}}
+-{{- $context := .Context -}}
+-{{- with (index .Context.Site.Params.widgets $scope) -}}
++{{ if .Site.Params.widgets.enabled }}
++    {{ $context := . }}
+     <aside class="sidebar right-sidebar sticky">
+-        {{ range $widget := . }}
+-            {{ if templates.Exists (printf "partials/widget/%s.html" .type) }}
+-                {{ partial (printf "widget/%s" .type) (dict "Context" $context "Params" .params) }}
+-            {{ else }}
+-                {{ warnf "Widget %s not found" .type }}
+-            {{ end }}
++        {{ range $widget := .Site.Params.widgets.enabled }}
++            {{ partial (printf "widget/%s" $widget) $context }}
+         {{ end }}
+     </aside>
+ {{ end }}
+\ No newline at end of file
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials: socialShare.html
+diff -bur themes/hugo-theme-stack/layouts/partials/widget/archives.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/widget/archives.html
+--- themes/hugo-theme-stack/layouts/partials/widget/archives.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/widget/archives.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,6 +1,4 @@
+-{{- $query := first 1 (where .Context.Site.Pages "Layout" "==" "archives") -}}
+-{{- $context := .Context -}}
+-{{- $limit := default 5 .Params.limit -}}
++{{- $query := first 1 (where .Site.Pages "Layout" "==" "") -}}
+ {{- if $query -}}
+     {{- $archivesPage := index $query 0 -}}
+     <section class="widget archives">
+@@ -9,17 +7,17 @@
+         </div>
+         <h2 class="widget-title section-title">{{ T "widget.archives.title" }}</h2>
+ 
+-        {{ $pages := where $context.Site.RegularPages "Type" "in" $context.Site.Params.mainSections }}
+-        {{ $notHidden := where $context.Site.RegularPages "Params.hidden" "!=" true }}
++        {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
++        {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
+         {{ $filtered := ($pages | intersect $notHidden) }}
+         {{ $archives := $filtered.GroupByDate "2006" }}
+         
+         <div class="widget-archive--list">
+-            {{ range $index, $item := first (add $limit 1) ($archives) }}
++            {{ range $index, $item := first (add .Site.Params.widgets.archives.limit 1) ($archives) }}
+                 {{- $id := lower (replace $item.Key " " "-") -}}
+                 <div class="archives-year">
+-                    <a href="{{ $archivesPage.RelPermalink }}#{{ $id }}">
+-                        {{ if eq $index $limit }}
++                    <a>
++                        {{ if eq $index $.Site.Params.widgets.archives.limit }}
+                             <span class="year">{{ T "widget.archives.more" }}</span>
+                         {{ else }}
+                             <span class="year">{{ .Key }}</span>
+Only in themes/hugo-theme-stack/layouts/partials/widget: categories.html
+diff -bur themes/hugo-theme-stack/layouts/partials/widget/search.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/widget/search.html
+--- themes/hugo-theme-stack/layouts/partials/widget/search.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/widget/search.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,4 +1,4 @@
+-{{- $query := first 1 (where .Context.Site.Pages "Layout" "==" "search") -}}
++{{- $query := first 1 (where .Site.Pages "Layout" "==" "search") -}}
+ {{- if $query -}}
+     {{- $searchPage := index $query 0 -}}
+     <form action="{{ $searchPage.RelPermalink }}" class="search-form widget" {{ with .OutputFormats.Get "json" -}}data-json="{{ .Permalink }}" {{- end }}>
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/widget: subscribe.html
+diff -bur themes/hugo-theme-stack/layouts/partials/widget/tag-cloud.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/widget/tag-cloud.html
+--- themes/hugo-theme-stack/layouts/partials/widget/tag-cloud.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/partials/widget/tag-cloud.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,5 +1,3 @@
+-{{- $context := .Context -}}
+-{{- $limit := default 10 .Params.limit -}}
+ <section class="widget tagCloud">
+     <div class="widget-icon">
+         {{ partial "helper/icon" "tag" }}
+@@ -7,7 +5,7 @@
+     <h2 class="widget-title section-title">{{ T "widget.tagCloud.title" }}</h2>
+ 
+     <div class="tagCloud-tags">
+-        {{ range first $limit $context.Site.Taxonomies.tags.ByCount }}
++        {{ range first .Site.Params.widgets.tagCloud.limit .Site.Taxonomies.tags.ByCount }}
+             <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
+                 {{ .Page.Title }}
+             </a>
+Only in themes/hugo-theme-stack/layouts/partials/widget: toc.html
+Only in ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts: rss.xml
+diff -bur themes/hugo-theme-stack/layouts/shortcodes/bilibili.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/shortcodes/bilibili.html
+--- themes/hugo-theme-stack/layouts/shortcodes/bilibili.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/shortcodes/bilibili.html	2022-05-06 01:04:28.767212709 +0700
+@@ -13,7 +13,7 @@
+ {{ end }}
+ 
+ <div class="video-wrapper">
+-    <iframe src="https://player.bilibili.com/player.html?{{ $basicQuery | safeURL }}&{{ $videoQuery | safeURL }}"
++    <iframe src="//player.bilibili.com/player.html?{{ $basicQuery | safeURL }}&{{ $videoQuery | safeURL }}"
+             scrolling="no"
+             frameborder="no"
+             framespacing="0"
+diff -bur themes/hugo-theme-stack/layouts/shortcodes/tencent.html ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/shortcodes/tencent.html
+--- themes/hugo-theme-stack/layouts/shortcodes/tencent.html	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/layouts/shortcodes/tencent.html	2022-05-06 01:04:28.767212709 +0700
+@@ -1,6 +1,6 @@
+ {{ $vid := .Get 0 }}
+ <div class="video-wrapper">
+-    <iframe src="https://v.qq.com/txp/iframe/player.html?vid={{ $vid }}&auto=0" 
++    <iframe src="http://v.qq.com/txp/iframe/player.html?vid={{ $vid }}&auto=0" 
+             scrolling="no" 
+             frameborder="no"
+             framespacing="0" 
+diff -bur themes/hugo-theme-stack/README.md ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/README.md
+--- themes/hugo-theme-stack/README.md	2022-05-05 17:22:07.780378585 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/README.md	2022-05-06 01:04:28.767212709 +0700
+@@ -3,13 +3,9 @@
+ 
+ > Card-style Hugo theme designed for bloggers.
+ 
+-## Quickstart
+-
+-Use this template: [CaiJimmy/hugo-theme-stack-starter](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+-
+ ## Demo
+ 
+-[Example Site](https://demo.stack.jimmycai.com/)
++[Example Site](https://theme-stack.jimmycai.com/)
+ 
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/a2d2807a-a905-4bcb-97da-8da8d847da3d/deploy-status)](https://app.netlify.com/sites/hugo-theme-stack/deploys)
+ 
+@@ -32,7 +28,6 @@
+ - Properly cropped thumbnails
+ - Subsection support
+ - Table of contents
+-- Multilingual mode and RTL support
+ 
+ ## Requirements
+ 
+@@ -40,10 +35,7 @@
+ 
+ ## Installation
+ 
+-* Route 1: Clone / Download this repository to `themes` folder
+-* Route 2: Turn your site into a hugo module and add this theme as a module dependency
+-
+- Edit your site config following `exampleSite/config.yaml`.
++Clone / Download this repository to `theme` folder, and edit your site config following `exampleSite/config.yaml`.
+ 
+ *Note: Remove `config.toml` if there is one in the site folder.*
+ 
+diff -bur themes/hugo-theme-stack/theme.toml ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/theme.toml
+--- themes/hugo-theme-stack/theme.toml	2022-05-05 17:22:07.784378605 +0700
++++ ../MasterPi-2124/Personal-Blog/themes/hugo-theme-stack/theme.toml	2022-05-06 01:04:28.767212709 +0700
+@@ -20,7 +20,7 @@
+     "search",
+ ]
+ 
+-min_version = "0.87.0"
++min_version = "0.78.0"
+ 
+ [author]
+ name = "Jimmy Cai"
