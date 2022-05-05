@@ -1,3 +1,9 @@
+baseurl: https://dungminhdao.github.io/
+languageCode: en-us
+theme: hugo-theme-stack
+paginate: 5
+title: Example Site
+
 module:
     hugoVersion:
         extended: true
