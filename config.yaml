@@ -2,11 +2,11 @@ baseurl: https://dungminhdao.github.io
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Dung M. Dao
+title: Dung Minh Dao
 enableGitInfo: true
 
 # Change it to your Disqus shortname before using
-disqusShortname: 
+disqusShortname: masterpi007
 
 # GA Tracking ID
 googleAnalytics:
@@ -27,7 +27,7 @@ params:
     favicon: /img/logo.jpg
 
     footer:
-        since: 2022
+        since: 2021
         customText:
 
     dateFormat:
@@ -36,7 +36,7 @@ params:
 
     sidebar:
         emoji: 🙃
-        subtitle: Hi, I'm Dung M. Dao
+        subtitle: Hi, I'm Dung. I'm a student, and a researcher. More at About page. I'm also a professional AI developer.
         avatar:
             enabled: true
             local: true
@@ -118,16 +118,12 @@ params:
             - search
             - archives
             - tag-cloud
-            - subscribe
 
         archives:
             limit: 3
 
         tagCloud:
             limit: 20
-        
-        subscribe:
-            mailchimp: https://mailchi.mp/a54b51f2c263/thejournney
 
     opengraph:
         twitter:
@@ -173,49 +169,49 @@ menu:
           name: Home
           url: /
           weight: 1
+          pre: home
           params:
               newTab: false
-              icon: home
 
         - identifier: blog
           name: Blog
           url: /categories/blog/
           weight: 2
+          pre: blogs
           params:
               newTab: false
-              icon: blogs
 
         - identifier: project
           name: Project
           url: /categories/project/
           weight: 3
+          pre: projects
           params:
               newTab: false
-              icon: projects
 
         - identifier: guidelines
           name: Guideline
           url: /categories/guideline/
           weight: 4
+          pre: guidelines
           params:
               newTab: false
-              icon: guidelines
 
         - identifier: search
           name: Search
           url: /search
           weight: 5
+          pre: search
           params:
               newTab: false
-              icon: search
 
         - identifier: about
           name: About me
           url: /about
           weight: 6
+          pre: user
           params:
               newTab: false
-              icon: user
 
 related:
     includeNewer: true
