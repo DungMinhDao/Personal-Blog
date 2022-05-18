@@ -1,6 +1,6 @@
 ---
 title: "Project"
-description: "Here is how I save the world."
+description: "My personal favorite projects"
 slug: "project"
 image: "projectBackground.jpg"
 style:
