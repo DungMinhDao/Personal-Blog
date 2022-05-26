@@ -64,7 +64,7 @@ Hi. This is the first course review I've ever done on my blog, and today I will 
 * Details on each of the topics (though I do provide some insights)
 * How to complete each projects and tests
 
-# Why should you care about MLOps it?
+# Why should you care about MLOps?
 For most of beginners in Machine Learning or AI, it is a common practice to use notebooks and simple files to do experiments with readily available datasets, run and fine-tune a number of models. While this could be a good starting point for developing practical models, things are quite different in the production scenarios.
 
 I will not list all of the cumbersome theoretical and practical issues here, as the readers can easily search for posts on the topic of MLOps, as well as find some insights on the problems that MLOps solves through the rest of my course review. However, here is a simple summary of some of the problems that MLOps can provide solutions:

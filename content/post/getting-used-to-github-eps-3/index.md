@@ -28,8 +28,7 @@ lastmod:
 # Article's tags
 tags: 
     - git
-    - github 101
-    - merge
+    - github
 
 # Article's categories: Blog, Project, or Guideline
 categories:
